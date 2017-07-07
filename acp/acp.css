@@ -1,4 +1,4 @@
-.acp_list{
+.acp_list{ 
     border: 1px solid #aaa;
     opacity:1;
     text-decoration:none;
@@ -30,19 +30,19 @@
 .list_bar{
     margin:0px auto; 
     width:100%;
-   # border-bottom:1px solid #aaa;
+    border-bottom:1px solid #aaa;
     height:20px;
-    display:none;
+   # display:none;
 }
 
 .list_footer{
     margin-left:5px;
-    display:none;
+   # display:none;
 }
 
 .list_data{
     width:100%;
-  #  border-bottom:1px solid #aaa;
+    border-bottom:1px solid #aaa;
 }
 
 .list_data td{
