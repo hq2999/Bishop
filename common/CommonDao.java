@@ -10,16 +10,15 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
-
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;
 import org.hibernate.Query;
 import org.hibernate.StatelessSession;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
-import org.springframework.orm.hibernate3.HibernateTemplate;
+import org.springframework.orm.hibernate4.HibernateTemplate;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -28,20 +27,12 @@ import org.springframework.transaction.annotation.Transactional;
 public class CommonDao {
 	private static final Logger logger = Logger.getLogger(CommonDao.class);
 
-	@Resource(name = "jdbcTemplate")
-	private JdbcTemplate jdbcTemplate = null;
+	@Autowired
+    private JdbcTemplate jdbcTemplate;
 
-	@Resource(name = "hibernateTemplate")
-	private HibernateTemplate hibernateTemplate = null;
+	@Autowired
+	private HibernateTemplate hibernateTemplate;
 
-	private static JdbcTemplate staticJdbcTemplate = null;
-	private static HibernateTemplate staticHibernateTemplate = null;
-
-	@PostConstruct
-	public void init() {
-		staticJdbcTemplate = jdbcTemplate;
-		staticHibernateTemplate = hibernateTemplate;
-	}
 
 	/**
 	 * 使用原生SQL查询，返回List<Map<String, String>>结构的数据集，map's key 的格式为驼峰式
@@ -50,8 +41,8 @@ public class CommonDao {
 	 * @param params
 	 * @return
 	 */
-	public static List<Map<String, Object>> findBySql(String sql, Object[] params) {
-		List list = staticJdbcTemplate.query(sql, params, new RowMapper<Map<String, String>>() {
+	public List<Map<String, Object>> findBySql(String sql, Object[] params) {
+		List list = jdbcTemplate.query(sql, params, new RowMapper<Map<String, String>>() {
 			public Map<String, String> mapRow(ResultSet rs, int arg1) throws SQLException {
 				ResultSetMetaData meta = rs.getMetaData();
 				int c = meta.getColumnCount();
@@ -75,7 +66,7 @@ public class CommonDao {
 	 * @param valueField
 	 * @return
 	 */
-	public static Map<String, Object> findBySql2Map(String sql, Object[] params, String keyField, String valueField) {
+	public Map<String, Object> findBySql2Map(String sql, Object[] params, String keyField, String valueField) {
 		List<Map<String, Object>> list = findBySql(sql, params);
 		Map<String, Object> result = new HashMap<String, Object>();
 
@@ -87,8 +78,8 @@ public class CommonDao {
 	}
 
 	// 带分页功能的原生sql查询
-	public static List<Map<String, Object>> findBySql(String sql, Object[] param, int start, int limits) {
-		List<Map<String, Object>> tlist = staticJdbcTemplate.queryForList("select * from (" + sql + ") where rownum<2", param);
+	public List<Map<String, Object>> findBySql(String sql, Object[] param, int start, int limits) {
+		List<Map<String, Object>> tlist = jdbcTemplate.queryForList("select * from (" + sql + ") where rownum<2", param);
 		List<String> cols = new ArrayList<String>();
 
 		for (Map<String, Object> map : tlist) {
@@ -102,7 +93,7 @@ public class CommonDao {
 		StatelessSession session = null;
 
 		try {
-			session = staticHibernateTemplate.getSessionFactory().openStatelessSession();
+			session = hibernateTemplate.getSessionFactory().openStatelessSession();
 			Query q = session.createSQLQuery(sql);
 
 			if (param != null) {
@@ -139,14 +130,14 @@ public class CommonDao {
 	}
 
 	public int getRecordCount(String sql, Object[] param) {
-		sql = sql.replaceFirst("(?<=select) .+? (?=from)", " count(*) c ");
-		List<Map<String, Object>> tlist = staticJdbcTemplate.queryForList(sql, param);
+		sql = "select count (*)  c from (" + sql + ")";
+		List<Map<String, Object>> tlist = jdbcTemplate.queryForList(sql, param);
 		return Integer.parseInt(tlist.get(0).get("c").toString());
 	}
 
 	public int getRecordCount(String sql) {
-		sql = sql.replaceFirst("(?<=select) .+? (?=from)", " count(*) c ");
-		List<Map<String, Object>> tlist = staticJdbcTemplate.queryForList(sql);
+		sql = "select count (*) c from (" + sql + ")";
+		List<Map<String, Object>> tlist = jdbcTemplate.queryForList(sql);
 		return Integer.parseInt(tlist.get(0).get("c").toString());
 	}
 
@@ -168,21 +159,4 @@ public class CommonDao {
 		m.appendTail(sb);
 		return sb.toString();
 	}
-
-	public JdbcTemplate getJdbcTemplate() {
-		return jdbcTemplate;
-	}
-
-	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
-		this.jdbcTemplate = jdbcTemplate;
-	}
-
-	public HibernateTemplate getHibernateTemplate() {
-		return hibernateTemplate;
-	}
-
-	public void setHibernateTemplate(HibernateTemplate hibernateTemplate) {
-		this.hibernateTemplate = hibernateTemplate;
-	}
-
 }
