@@ -18,7 +18,11 @@ jQuery.fn.extend({
 	        ico_base64 += 'PfnsFb84TITWsOPACBAz9fUW3IZxXX4CdQnxd1KqmAbmFzOpU005AW4ADMritE/WvjQHFsAPk/rH9FK';
 	        ico_base64 += 'l2BPoxbFmYwWZ0KROtZ5DiR4WQgX/uWQZtaogD3G8AK6q+4xe0sxoAAAAASUVORK5CYII=';
        
-	        _obj.css('background', '#fff url(' + ico_base64 + ') no-repeat ' + (_obj.outerWidth()-15) + 'px '+ (_obj.height()/2-3) +'px');
+	        _obj.css('background-image', 'url(' + ico_base64 + ')');
+	        _obj.css('background-repeat','no-repeat');
+	        _obj.css('background-position', (_obj.outerWidth()-15) + 'px '+ (_obj.height()/2-3) +'px');
+	        
+	        //_obj.css('background-color', '#fff');
 	        
 	        
 	        var item_data = [];
@@ -45,10 +49,10 @@ jQuery.fn.extend({
 			            $("#span_max_page_"+_id).text(data.maxPage);
 			            max_page = data.maxPage;
 			            $("#list_data_" + _id).empty();
-                        
+			            $("#empty_notice_" + _id).empty();
+			            
 			            if(option.empty_notice && data.data.length==0){
-			            	show_empty_notice();
-                            return;
+			            	$("#empty_notice_" + _id).append(option.empty_notice);
 			            }
 			            
 			            
@@ -113,43 +117,53 @@ jQuery.fn.extend({
 	        }
 	        
 	        function show_offline_item(){
-                $("#empty_notice_" + _id).empty();
-	        	var filter_field = option.filter_field;
-                var empty = true;
-        		for(var i=0;i<item_data.length;i++){
-        			 for(var j=0;j<filter_field.length;j++){
-        				 if(item_data[i][filter_field[j]].match(new RegExp("^" + _obj.val() + ".*"))){
-                            empty = false;
-	        				var _item_html = option.display(item_data[i]);
-	 		            	_item_html = _item_html.replace(new RegExp(_obj.val()), "<span class='keyword'>" + _obj.val() + "</span>");
-	 		            	var _data_html = '<tr><td>' + _item_html + '</td><td style="display:none">' + item_data[i]['index'] + '</td></tr>';
-	 		            	$("#list_data_" + _id).append(_data_html);
-	 		            	
-	 		            	 $("#list_data_" + _id +" tr").on("click", function(){
-	 			                if(option.afterClick){
-	 			                	_obj.val(option.afterClick(item_data[$(this).find('td:eq(1)').text()]));
-	 			                } else {
-	 			                	_obj.val($(this).text());
-	 			                }
-	 			                
-	 			                _acp_list.hide();
-	 			            });
 
+	        	var filter_field = option.filter_field;
+        		for(var i=0;i<item_data.length;i++){
+        			 var finded = false;
+                     
+                     for(var j=0;j<filter_field.length;j++){
+        				 if(item_data[i][filter_field[j]].match(new RegExp("^" + _obj.val() + ".*"))){
+	        				 finded = true;
+                             break;
 	        			 }
         			 }
+                     
+                     if(finded){
+                        var _item_html = option.display(item_data[i]);
+                        _item_html = _item_html.replace(new RegExp(_obj.val()), "<span class='keyword'>" + _obj.val() + "</span>");
+                        var _data_html = '<tr><td>' + _item_html + '</td><td style="display:none">' + item_data[i]['index'] + '</td></tr>';
+                        $("#list_data_" + _id).append(_data_html);
+                     }
 	            }
                 
-                 if(option.empty_notice && empty){
-                    show_empty_notice();
-                    return;
-                 }
+                 $("#list_data_" + _id).find("tr").on("click", function(){
+                    if(option.afterClick){
+                        _obj.val(option.afterClick(item_data[$(this).find('td:eq(1)').text()]));
+                    } else {
+                        _obj.val($(this).text());
+                    }
+                 
+                    _acp_list.hide();
+                });
 	        }
-	       
-            function show_empty_notice(){
-                $("#empty_notice_" + _id).empty();
-                $("#empty_notice_" + _id).append(option.empty_notice);
-            }
-           
+	        
+	        _obj.val('');
+	        $('#acp_list_' + _id).remove();
+	        $('#list_data_' + _id).remove();
+	        $('#empty_notice_' + _id).remove();
+	        
+	        
+	        $('#a_first_page_' + _id).remove();
+	        $('#a_previous_page_' + _id).remove();
+	        $('#a_next_page_' + _id).remove();
+	        $('#a_last_page_' + _id).remove();
+	        
+	        $('#span_page_' + _id).remove();
+	        $('#span_max_page_' + _id).remove();
+	        
+	        
+	        
 	        var _html_panellist = "";
 	        _html_panellist += "<div class='acp_list' id='acp_list_" + _id + "' style='display:none;overflow-y:scroll'>";
 	        _html_panellist += "<table class='list_data' id='list_data_" + _id + "'  cellspacing='0' cellpadding='0'>"
@@ -225,6 +239,7 @@ jQuery.fn.extend({
 
 	        	if(option.offline){
 	        		$("#list_data_" + _id).empty();
+                    $("#empty_notice_" + _id).empty();
 	        		show_offline_item();
 	        	} else {
 	        		if(delay_flag) {
