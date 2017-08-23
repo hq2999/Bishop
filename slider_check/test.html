@@ -1,0 +1,133 @@
+<html>
+
+<head>
+
+<script src="jquery.js"></script>
+
+<style> 
+.ground
+{
+   width:260px; 
+   height:90px;
+   position:relative;
+   box-shadow: 6px 6px 3px #888888;
+}
+
+.brick
+{
+   width:50px; 
+   height:50px;
+   position:relative;
+}
+
+.slider{
+    background-image: url(slider_bg.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    width:50px;
+    height:20px;
+    background-color:#aaa;
+    position:relative;
+    margin-top:10px;
+    box-shadow: 6px 6px 3px #888888;
+    border-radius:5px;
+}
+
+.slider:active{
+    -webkit-transform: translate(2px,2px);
+    -moz-transform:translate(2px,2px);
+    transform: translate(2px,2px);
+    box-shadow: 4px 4px 1px #888888;
+    cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<div style="margin-top:300px"></div>
+<div id="notice" style="margin:0px auto;width:100px">&nbsp;</div>
+
+<div style="margin:0px auto;width:100px">
+
+<div id="ground" class="ground">
+
+<div id="brick" class="brick"></div> 
+</div>
+
+<div id="slider" class="slider"></div>
+
+</div>
+
+</html>
+
+<script>
+ 
+    var brick = $("#brick");
+    var ground = $("#ground");
+
+    var slider = $("#slider");
+    
+    var mouse_state = false;
+    
+    var slider_offset = 0;
+    
+    slider.on("mousedown",function(){
+        var e = window.event;
+        mouse_state = true;
+        slider_offset = e.pageX - brick.position().left;
+       
+    });  
+
+    slider.on("mouseup",function(){
+        check();
+        mouse_state = false;
+    });
+    
+    $(document).on("mousemove",function(){
+        var e = window.event;
+
+        if(mouse_state){
+            x = e.pageX - slider_offset;
+            
+            if(x<0) x=0;
+            
+            if(x>ground.width() - brick.width()) { 
+                x = ground.width() - brick.width()
+            }
+            
+            brick.css("left", x + "px");
+            slider.css("left", x + "px");
+        }
+    });
+    
+    $(document).on("mouseup",function(){
+        if(mouse_state){
+            check();
+        }
+        mouse_state = false;
+    });
+    
+    $.post("createPic.jsp",
+        {},
+        function(data){
+            $("#brick").css("background-image","url(data:image/png;base64," + data.brick + ")");
+            $("#ground").css("background-image","url(data:image/png;base64," + data.ground + ")");
+            brick.css("top", data.top + "px"); 
+        },'json');
+        
+    function check(){
+        $.post("check.jsp",
+            {
+                x:brick.position().left
+            },
+            function(data){
+                if(data=='ok'){
+                    $("#notice").html("<span style='color:#0a0'>通过</span>");
+                    $("#slider").hide();
+                } else {
+                    $("#notice").html("<span style='color:#f00'>不通过</span>");
+                }
+            });
+    }
+</script>
