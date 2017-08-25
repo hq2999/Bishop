@@ -37,7 +37,8 @@
 	try {
 	//	image =  coverImage("E:\\pic\\ground.png", "E:\\pic\\block.png", 10, 10,  70,  115);
 		
-		g =  createBufferedImage("E:\\apache-tomcat-6.0.36\\webapps\\ROOT\\" + pic_index + ".jpg");
+		BufferedImage origin =  createBufferedImage("E:\\apache-tomcat-6.0.36\\webapps\\ROOT\\" + pic_index + ".jpg");
+        g =  createBufferedImage("E:\\apache-tomcat-6.0.36\\webapps\\ROOT\\" + pic_index + ".jpg");
 		b = clip(g,x,top,50,50);
 	  //ImageIO.write(b, "jpg", new File("E:\\pic\\b.jpg"));
 		image = grayProcess(g,x,top,50,50);
@@ -46,21 +47,22 @@
 	    ByteArrayOutputStream outStream = new ByteArrayOutputStream(); 
 		ImageIO.write(b, "jpg", outStream);
 		byte[] outByte = outStream.toByteArray();
-	  
 		String base64_brick = new String(Base64.encodeBase64(outByte));
-		
 		result.put("brick", base64_brick);
 		
-		image = grayProcess(g,x,top,50,50);
-		
-		outStream = new ByteArrayOutputStream(); 
+		outStream = new ByteArrayOutputStream();
 		ImageIO.write(image, "jpg", outStream);
 		outByte = outStream.toByteArray();
-		
 		String base64_ground= new String(Base64.encodeBase64(outByte));
-		
 		result.put("ground", base64_ground);
-		result.put("top", top);
+
+        outStream = new ByteArrayOutputStream(); 
+		ImageIO.write(origin, "jpg", outStream);
+		outByte = outStream.toByteArray();
+        String base64_origin= new String(Base64.encodeBase64(outByte));
+		result.put("origin", base64_origin);
+
+        result.put("top", top);
 		out.print(JSON.toJSONString(result));
 		
 		System.out.println("ok");

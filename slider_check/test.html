@@ -10,7 +10,7 @@
    width:260px; 
    height:90px;
    position:relative;
-   box-shadow: 6px 6px 3px #888888;
+   #box-shadow: 6px 6px 3px #888888;
 }
 
 .brick
@@ -18,12 +18,13 @@
    width:50px; 
    height:50px;
    position:relative;
-   -webkit-box-shadow:inset 0 0 10px #ff0;  
-   -moz-box-shadow:inset 0 0 10px #ff0;  
-   box-shadow:inset 0 0 10px #ff0;     
+   -webkit-box-shadow:inset 0 0 20px #ff0;  
+   -moz-box-shadow:inset 0 0 20px #ff0;  
+   box-shadow:inset 0 0 20px #fff;
 }
 
 .slider{
+    z-index:2;
     background-image: url(slider_bg.jpg);
     background-size:100% 100%;
     background-repeat: no-repeat;
@@ -31,17 +32,36 @@
     height:20px;
     background-color:#aaa;
     position:relative;
-    margin-top:10px;
-    box-shadow: 6px 6px 3px #888888;
-    border-radius:5px;
+    #margin-top:5px;
+    #box-shadow: 6px 6px 3px #888888;
+    border-radius:10px;
 }
 
 .slider:active{
-    -webkit-transform: translate(1px,1px);
-    -moz-transform:translate(1px,1px);
-    transform: translate(1px,1px);
-    box-shadow: 4px 4px 1px #888888;
     cursor:pointer;
+}
+
+.light{
+    background-image: url(light.png);
+    background-size:100% 100%;
+    position:absolute;
+    width:110px; 
+    height:110px;
+    top:-20px;
+}
+
+.slider_track{
+    position:absolute;
+    width:260px; 
+    height:20px;
+    top:90px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently not supported by any browser */
+    background-color:#aaa;
 }
 
 </style>
@@ -50,36 +70,37 @@
 
 <div style="margin-top:300px"></div>
 <div id="notice" style="margin:0px auto;width:100px">&nbsp;</div>
+<div style="margin:0px auto;width:260px;height:300px;position:relative;">
 
-<div style="margin:0px auto;width:100px">
+    <div id="ground" class="ground">
 
-<div id="ground" class="ground">
+        <div id="brick" class="brick"></div> 
 
-<div id="brick" class="brick"></div> 
-</div>
+        <div id="light" class="light"></div>
 
-<div id="slider" class="slider"></div>
-
+    </div>
+    
+    <div id="slider" class="slider"></div>
+    <div id="slider_track" class="slider_track"><div style="color:#FFF;margin-left:80px;margin-top:2px;font-size:12px">拖动滑块完成拼图</div></div>
 </div>
 
 </html>
 
-<script>
- 
+<script> 
     var brick = $("#brick");
     var ground = $("#ground");
-
     var slider = $("#slider");
+    var light = $("#light");
+    var slider_track = $("#slider_track");
+    light.hide();
     
     var mouse_state = false;
-    
     var slider_offset = 0;
-    
+
     slider.on("mousedown",function(){
         var e = window.event;
         mouse_state = true;
         slider_offset = e.pageX - brick.position().left;
-       
     });  
 
     slider.on("mouseup",function(){
@@ -111,13 +132,20 @@
         mouse_state = false;
     });
     
-    $.post("createPic.jsp",
+    var origin_b64;
+    
+    
+    function loadPic(){
+         $.post("createPic.jsp",
         {},
         function(data){
+            origin_b64 = data.origin;
             $("#brick").css("background-image","url(data:image/png;base64," + data.brick + ")");
             $("#ground").css("background-image","url(data:image/png;base64," + data.ground + ")");
             brick.css("top", data.top + "px"); 
         },'json');
+    }
+   
         
     function check(){
         $.post("check.jsp",
@@ -126,11 +154,24 @@
             },
             function(data){
                 if(data=='ok'){
+                    light.show();
+                    
+                    light.animate({left:'260px'},"fast" , "linear", function(){
+                        ground.css("background-image","url(data:image/png;base64," + origin_b64 + ")");
+                        brick.hide();
+                        light.hide();
+                    }); 
+                   
                     $("#notice").html("<span style='color:#0a0'>通过</span>");
-                    $("#slider").hide();
+                    slider_track.hide();
+                    slider.hide();
                 } else {
                     $("#notice").html("<span style='color:#f00'>不通过</span>");
+                    slider.animate({left:'0px'},"fast" );
+                    brick.animate({left:'0px'},"fast" );
                 }
             });
     }
+    
+    loadPic();
 </script>
