@@ -1,1 +1,1 @@
-ORACEL 生成数据字典
+ORACEL 鐢熸垚鏁版嵁瀛楀吀
