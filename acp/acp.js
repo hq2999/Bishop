@@ -12,6 +12,8 @@ jQuery.fn.extend({
 	        
 	        var delay_flag;
 	        
+            var _selected_data;
+            
 	        var ico_base64 = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAA';
 	        ico_base64 += 'A7EAAAOxAGVKw4bAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAACW';
 	        ico_base64 += 'SURBVHjadM4hD0FRHIbx9yh3U0Q04W7inU8gircokqaKJIpNVGSiZLcrgiD6CL4B8cRHOP8zO9u94W3'
@@ -71,7 +73,7 @@ jQuery.fn.extend({
 			                } else {
 			                	_obj.val($(this).text());
 			                }
-			                
+			                _selected_data =  data.data[$(this).index()];
 			                _acp_list.hide();
 			            });
 						
@@ -143,7 +145,7 @@ jQuery.fn.extend({
                     } else {
                         _obj.val($(this).text());
                     }
-                 
+                    _selected_data = item_data[$(this).find('td:eq(1)').text()];
                     _acp_list.hide();
                 });
 	        }
@@ -263,6 +265,16 @@ jQuery.fn.extend({
 	                _acp_list.hide();
 	            }
 	        });
+            
+            _obj.getFieldValue=function(field){
+                if(_selected_data && _selected_data[field]){
+                    return _selected_data[field];
+                } else {
+                    return '';
+                }
+            };
+            
+            return _obj;
 	    }
 	 
 	});
