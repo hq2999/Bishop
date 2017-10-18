@@ -267,7 +267,7 @@ jQuery.fn.extend({
 	        });
             
             _obj.getFieldValue=function(field){
-                if(_selected_data && _selected_data[field]){
+                if(_selected_data && _selected_data[field] && _obj.val().length>0){
                     return _selected_data[field];
                 } else {
                     return '';
