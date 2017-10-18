@@ -14,6 +14,8 @@ jQuery.fn.extend({
 	        
             var _selected_data;
             
+            var _selected_item;
+            
 	        var ico_base64 = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAA';
 	        ico_base64 += 'A7EAAAOxAGVKw4bAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAACW';
 	        ico_base64 += 'SURBVHjadM4hD0FRHIbx9yh3U0Q04W7inU8gircokqaKJIpNVGSiZLcrgiD6CL4B8cRHOP8zO9u94W3'
@@ -32,7 +34,6 @@ jQuery.fn.extend({
 	        if(option.offline){
 	        	item_data = option.data;
 	        	for(var i=0;i<item_data.length;i++){
-	        		item_data[i] = item_data[i];
 	        		item_data[i]['index'] = i;
 	        	}
 	        }
@@ -73,7 +74,12 @@ jQuery.fn.extend({
 			                } else {
 			                	_obj.val($(this).text());
 			                }
-			                _selected_data =  data.data[$(this).index()];
+                            
+                            if(option.value){
+                                _selected_data = option.value(data.data[$(this).index()]);
+                            }
+                            
+			                _selected_item =  data.data[$(this).index()];
 			                _acp_list.hide();
 			            });
 						
@@ -143,9 +149,15 @@ jQuery.fn.extend({
                     if(option.afterClick){
                         _obj.val(option.afterClick(item_data[$(this).find('td:eq(1)').text()]));
                     } else {
-                        _obj.val($(this).text());
+                        _obj.val($(this).find("td:eq(0)").text());
                     }
-                    _selected_data = item_data[$(this).find('td:eq(1)').text()];
+                    
+                    if(option.value){
+                        _selected_data = option.value(item_data[$(this).find('td:eq(1)').text()]);
+                    }
+                            
+			        _selected_item =  item_data[$(this).find('td:eq(1)').text()];
+
                     _acp_list.hide();
                 });
 	        }
@@ -232,9 +244,7 @@ jQuery.fn.extend({
 	            }
 	            
 	        });
-	        
-	         
-	         
+  
 	        _obj.on("keyup", function(){
 	        	var e = window.event||arguments[0];
 	        	var code = e.keyCode;
@@ -267,9 +277,19 @@ jQuery.fn.extend({
 	        });
             
             _obj.getFieldValue=function(field){
-                if(_selected_data && _selected_data[field]){
-                    return _selected_data[field];
+                if(_selected_item && _selected_item[field] && _obj.val().length>0){
+                    return _selected_item[field];
                 } else {
+                    _selected_item = {};
+                    return '';
+                }
+            };
+            
+            _obj.getValue=function(){
+                if(_selected_data && _obj.val().length>0){
+                    return _selected_data;
+                } else {
+                    _selected_data = '';
                     return '';
                 }
             };
