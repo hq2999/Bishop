@@ -16,6 +16,15 @@ jQuery.fn.extend({
             
             var _selected_item;
             
+			var keyColor;
+			
+			if(option.keyColor){
+				keyColor = option.keyColor;
+			} else {
+				keyColor = '#aaa';
+			}
+			
+			
 	        var ico_base64 = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAA';
 	        ico_base64 += 'A7EAAAOxAGVKw4bAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAACW';
 	        ico_base64 += 'SURBVHjadM4hD0FRHIbx9yh3U0Q04W7inU8gircokqaKJIpNVGSiZLcrgiD6CL4B8cRHOP8zO9u94W3'
@@ -61,7 +70,7 @@ jQuery.fn.extend({
 			            
 			            for(var i=0;i<data.data.length;i++){
 			            	var _item_html = option.display(data.data[i]);
-			            	_item_html = _item_html.replace(new RegExp(_obj.val()), "<span class='keyword'>" + _obj.val() + "</span>");
+			            	_item_html = _item_html.replace(new RegExp(_obj.val()), "<span style='background-color:" + keyColor + "'>" + _obj.val() + "</span>");
 			            	var _data_html = '<tr><td>' + _item_html + '<td></tr>';
 			            	$("#list_data_" + _id).append(_data_html);
 			            
@@ -139,7 +148,7 @@ jQuery.fn.extend({
                      
                      if(finded){
                         var _item_html = option.display(item_data[i]);
-                        _item_html = _item_html.replace(new RegExp(_obj.val()), "<span class='keyword'>" + _obj.val() + "</span>");
+                        _item_html = _item_html.replace(new RegExp(_obj.val()), "<span style='background-color:" + keyColor + "'>" + _obj.val() + "</span>");
                         var _data_html = '<tr><td>' + _item_html + '</td><td style="display:none">' + item_data[i]['index'] + '</td></tr>';
                         $("#list_data_" + _id).append(_data_html);
                      }

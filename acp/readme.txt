@@ -17,7 +17,8 @@ var combo = $("#cmhc").acp({
         return item['vesseletrim'] + "/" + item['voyage'] + "-" + item['vesselcode'];
     },
     delay:300,                      //击键间隔，单位毫秒，间隔内的keyup将被忽略，避免无意义的提交
-    empty_notice:"条数为0时，下拉框显示的内容"
+    keyColor:'#00f',
+	empty_notice:"条数为0时，下拉框显示的内容"
 });	
     
 //离线方式
@@ -36,6 +37,7 @@ var combo = $("#shipNamec").acp({
 	value:function(item){
 		return item['vesselcode'] + '-' + item['voyage'];
 	},
+	keyColor:'#00f',
     empty_notice:"条数为0时，下拉框显示的内容"
 });
 
