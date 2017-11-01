@@ -17,7 +17,8 @@ var combo = $("#cmhc").acp({
         return item['vesseletrim'] + "/" + item['voyage'] + "-" + item['vesselcode'];
     },
     delay:300,                      //击键间隔，单位毫秒，间隔内的keyup将被忽略，避免无意义的提交
-    empty_notice:"条数为0时，下拉框显示的内容"
+    keyColor:'#00f',
+	empty_notice:"条数为0时，下拉框显示的内容"
 });	
     
 //离线方式
@@ -25,16 +26,22 @@ var combo = $("#shipNamec").acp({
     data:data,                         //下拉列表的数据 
     height:350,                        //下拉框高度
     offline:true,                      //离线时必须添加
+	autoLoad:true,  				   //数据自动加载
     filter_field:['label'],            //需要参加过滤的field  
     display:function(item){            //下拉框显示的内容 
         return item['label'];
     },
     afterClick:function(item){         //显示下拉框后回填到文本框的内容
         return item['value'];
-    }
+    },
+	value:function(item){
+		return item['vesselcode'] + '-' + item['voyage'];
+	},
+	keyColor:'#00f',
     empty_notice:"条数为0时，下拉框显示的内容"
 });
 
 function test(){
-    alert(combo.getFieldValue("lable"));
+    console.log(combo.getFieldValue("lable")); //value = item['lable']
+	console.log(combo.getValue());   //value = item['vesselcode'] + '-' + item['voyage']
 }
