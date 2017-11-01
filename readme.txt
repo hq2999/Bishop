@@ -1,0 +1,1 @@
+nohup ./standalone.sh -server-config=standalone-ha.xml -b 0.0.0.0 &
