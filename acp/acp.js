@@ -134,16 +134,32 @@ jQuery.fn.extend({
 	        }
 	        
 	        function show_offline_item(){
-
+                var reg='';
+                var cs = '';
+                
+                if(option.case_sensitive==false){
+                    cs = 'i';
+                }
+                
+                
+                if(option.fuzzy==true){
+                    reg = _obj.val();
+                } else {
+                    reg = "^" + _obj.val() + ".*";
+                }
+              
+                var reg_exp = eval("/" + reg + "/" + cs);
+                
 	        	var filter_field = option.filter_field;
         		for(var i=0;i<item_data.length;i++){
         			 var finded = false;
-                     
                      for(var j=0;j<filter_field.length;j++){
-        				 if(item_data[i][filter_field[j]].match(new RegExp("^" + _obj.val() + ".*"))){
-	        				 finded = true;
-                             break;
-	        			 }
+                         if(option.fuzzy==true){
+                            if(item_data[i][filter_field[j]].match(reg_exp)){
+                                finded = true;
+                                break;
+                            }
+                         }
         			 }
                      
                      if(finded){

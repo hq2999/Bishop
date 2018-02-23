@@ -31,6 +31,11 @@ var combo = $("#shipNamec").acp({
     display:function(item){            //下拉框显示的内容 
         return item['label'];
     },
+    
+    fuzzy:true,
+    case_sensitive:false,
+
+    
     afterClick:function(item){         //显示下拉框后回填到文本框的内容
         return item['value'];
     },
