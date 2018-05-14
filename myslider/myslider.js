@@ -24,7 +24,7 @@
 		});
 	
 		var item = belt.children();
-		console.log(belt.html());
+		
 		var itemLL;
 		
 		function Node(element){
@@ -168,7 +168,9 @@
 				
 			index = 0;
 		});
-
+		
+		
+		
 		el.append("<div class='side-btn noselect'>&lt</div>");
 		el.append("<div class='side-btn noselect'>&gt</div>");
 		
@@ -185,8 +187,6 @@
 			left: (el[0].offsetLeft + config.width*config.size-rbtn.width()) + "px"
 		});
 		
-		console.log(el[0].offsetLeft + config.width*config.size-rbtn.width());
-		
 		lbtn.on('mousedown', prev);
 		lbtn.on('mouseup', stopEvent);
 		
@@ -200,7 +200,8 @@
 		
 		function prev(e) {
 			e=e||window.event;
-			e.stopPropagation();
+			
+			if(e!=undefined) e.stopPropagation();
 			
 			belt.css({
 				left: - (item.length-1)*config.width + "px"
@@ -210,17 +211,17 @@
 			itemLL=itemLL.next;
 			belt.find("div:eq(0)").remove();
 			
-			cur_index = belt.find(">div:eq(6)").attr('ix');
+			cur_index = belt.find(">div:eq(" + item.length +")").attr('ix');
 			
 			belt.stop().animate({
 				left: -item.length*config.width + "px"
 			});
-
 		}
 		
 		function next(e) {
 			e=e||window.event;
 			e.stopPropagation();
+			if(e!=undefined) e.stopPropagation();
 			
 			belt.css({
 				left:  - (item.length+1)*config.width + "px"
@@ -230,14 +231,15 @@
 			itemLL = itemLL.prev;
 			belt.find("div:last").remove();
 			
-			cur_index = belt.find(">div:eq(6)").attr('ix');
-			
 			belt.stop().animate({
-				left:  - item.length*config.width + "px"
+				left:  - item.length*config.width + "px",
 			});	
 			
+			
+			cur_index = belt.find(">div:eq(" + item.length + ")").attr('ix');
+			
 		}
-		
+
 		function moveTo(n){
 			var i = 0 ;
 			while(cur_index!=n && i<item.length){
@@ -245,6 +247,8 @@
 				i=i+1;
 			}
 		}
+		
+		setInterval(prev, config.time*1000);
 	}
 
 	$.fn.extend({
@@ -254,3 +258,17 @@
 	})
 
 })(jQuery)
+
+
+/*
+
+$(document).ready(function(){
+	$('#slider').myslider({
+		width: 260,
+		height: 90,
+		size: 1,
+		showDot:true
+	});
+});
+
+*/
