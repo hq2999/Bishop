@@ -23,8 +23,8 @@
 			width: '10000px'
 		});
 	
-		var item = belt.find('>div');
-		
+		var item = belt.children();
+		console.log(belt.html());
 		var itemLL;
 		
 		function Node(element){
@@ -138,7 +138,7 @@
 				for(var i=0;i<index;i++){
 					belt.prepend($(itemLL.prev.element).clone());
 					itemLL = itemLL.prev;
-					belt.find(">div:last").remove();
+					belt.children(':last').remove();
 				}
 				
 				belt.css({
@@ -151,7 +151,7 @@
 				for(var i=0;i>index;i--){
 					belt.append($(itemLL.element).clone());
 					itemLL = itemLL.next;
-					belt.find(">div:eq(0)").remove();
+					belt.children(':first').remove();
 				}
 				
 				belt.css({
@@ -159,7 +159,7 @@
 				});
 			}
 			
-			cur_index = belt.find(">div:eq(6)").attr('ix');
+			cur_index = belt.children(":eq(6)").attr('ix');
 			
 			
 			belt.stop().animate({
