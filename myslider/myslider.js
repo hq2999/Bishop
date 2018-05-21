@@ -1,11 +1,17 @@
 (function($){
 
 	var myslider = function (el, config) {
+		var timerId;
 		
 		el.on("dragstart",function(){return false});
 		
-		if(config.size==undefined) config.size==1;
+		if(config.size==undefined) config.size=1;
+		if(config.showDot==undefined) config.showDot=true;
 		
+		
+		if(config.width==undefined) config.width=300;
+		if(config.height==undefined) config.height=200;
+
 		el.css({
 			overflow: 'hidden',
 			width: config.width*config.size + "px",
@@ -74,7 +80,7 @@
 		
 		if(config.showDot && config.size==1){
 			for(var i=0;i<item.length;i++){
-				el.append("<div class='dot noselect' style='top:" + (config.height-10) + "px;left:" + (el[0].offsetLeft - 110 + config.width*config.size + 15*i) + "px;z-index:2' ></div>");
+				el.append("<div class='dot noselect' style='top:" + (config.height-60) + "px;left:" + (el[0].offsetLeft - 200 + config.width*config.size + 15*i) + "px;z-index:2' ></div>");
 				
 			}
 			el.find(".dot").on("dragstart",function(){return false});
@@ -84,13 +90,17 @@
 					moveTo(i+1);
 					e=e||window.event;
 					e.stopPropagation();
+					clearInterval(timerId);
 				})
 			})
 			
 			el.find(".dot").on("mouseup", function(e){
 				e=e||window.event;
 				e.stopPropagation();
+				timerId = setTimer();
 			})
+			
+			el.find(".dot:eq(0)").css({'background-color':'rgba(0,0,0,.7)'});
 		}
 
 		el.find(".side-btn").on("dragstart",function(){return false});
@@ -103,7 +113,6 @@
 		var pos1;
 		var pos2;
 		var cur_index = 0;
-		
 		
 		el.on('mousedown', function (e) {
 			e = e || window.event;
@@ -129,6 +138,9 @@
 					left: (mx2 - mx1 - item.length*config.width) + "px"
 				});
 			});
+			
+			clearInterval(timerId);
+			
 		});
 		
 		$(document).on('mouseup', function (){
@@ -165,33 +177,51 @@
 			belt.stop().animate({
 				left: -item.length*config.width + "px"
 			});	
-				
+			switchDot();
+			timerId = setTimer();
+			
 			index = 0;
 		});
 		
 		
-		
-		el.append("<div class='side-btn noselect'>&lt</div>");
-		el.append("<div class='side-btn noselect'>&gt</div>");
-		
-		var lbtn = el.find(".side-btn").eq(0);
-		var rbtn = el.find(".side-btn").eq(1);
-		
-		lbtn.css({
-			top:  (el[0].offsetTop + config.height / 2 - lbtn.height()/2) + "px",
-			left: el[0].offsetLeft + "px"
-		});
-		
-		rbtn.css({
-			top: (el[0].offsetTop + config.height / 2 - lbtn.height()/2) + "px",
-			left: (el[0].offsetLeft + config.width*config.size-rbtn.width()) + "px"
-		});
-		
-		lbtn.on('mousedown', prev);
-		lbtn.on('mouseup', stopEvent);
-		
-		rbtn.on('mousedown', next);
-		rbtn.on('mouseup', stopEvent);
+		if(config.showSideBtn){
+			el.append("<div class='side-btn noselect'>&lt</div>");
+			el.append("<div class='side-btn noselect'>&gt</div>");
+			
+			var lbtn = el.find(".side-btn").eq(0);
+			var rbtn = el.find(".side-btn").eq(1);
+			
+			lbtn.css({
+				top:  (el[0].offsetTop + config.height / 2 - lbtn.height()/2) + "px",
+				left: el[0].offsetLeft + "px"
+			});
+			
+			rbtn.css({
+				top: (el[0].offsetTop + config.height / 2 - lbtn.height()/2) + "px",
+				left: (el[0].offsetLeft + config.width*config.size-rbtn.width()) + "px"
+			});
+			
+			lbtn.on('mousedown', function(e){
+				prev(e);
+				clearInterval(timerId);
+			});
+			
+			
+			lbtn.on('mouseup', function(e){
+				stopEvent(e);
+				timerId = setTimer();
+			});
+			
+			rbtn.on('mousedown', function(e){
+				next(e);
+				clearInterval(timerId);
+			});
+			
+			rbtn.on('mouseup', function(e){
+				stopEvent(e);
+				timerId = setTimer();
+			});
+		}
 		
 		function stopEvent(e) {
 			e=e||window.event;
@@ -216,6 +246,7 @@
 			belt.stop().animate({
 				left: -item.length*config.width + "px"
 			});
+			switchDot();
 		}
 		
 		function next(e) {
@@ -237,6 +268,7 @@
 			
 			
 			cur_index = belt.find(">div:eq(" + item.length + ")").attr('ix');
+			switchDot();
 			
 		}
 
@@ -248,7 +280,24 @@
 			}
 		}
 		
-		setInterval(prev, config.time*1000);
+		function setTimer(){
+			if(config.time*1>0){
+				return setInterval(prev, config.time*1000);
+			}
+		}
+		
+		
+		function switchDot(){
+			el.find(".dot").each(function(i){
+				if(cur_index==i+1){
+					$(this).css({'background-color':'rgba(0,0,0,.7)'});
+				} else {
+					$(this).css({'background-color':'rgba(0,0,0,.2)'});
+				}
+			});
+		}
+		
+		timerId = setTimer();
 	}
 
 	$.fn.extend({

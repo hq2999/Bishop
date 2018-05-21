@@ -33,16 +33,16 @@
 	width:8px;
 	height:8px;
 	border-radius:4px;
-	background-color:#fff;
+	background-color:rgba(0,0,0,.2);
 	position:absolute;
-	z-index:2
+	z-index:3
 }
 
 .dot:hover{
 	width:8px;
 	height:8px;
 	border-radius:4px;
-	background-color:#bbb;
+	background-color:rgba(0,0,0,.7);
 	position:absolute;
 	z-index:2
 }
