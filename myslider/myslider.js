@@ -80,7 +80,7 @@
 		
 		if(config.showDot && config.size==1){
 			for(var i=0;i<item.length;i++){
-				el.append("<div class='dot noselect' style='top:" + (config.height-60) + "px;left:" + (el[0].offsetLeft - 200 + config.width*config.size + 15*i) + "px;z-index:2' ></div>");
+				el.append("<div class='dot noselect' style='top:" + (el[0].offsetTop+config.height-60) + "px;left:" + (el[0].offsetLeft - 200 + config.width*config.size + 15*i) + "px;z-index:2' ></div>");
 				
 			}
 			el.find(".dot").on("dragstart",function(){return false});
@@ -90,7 +90,7 @@
 					moveTo(i+1);
 					e=e||window.event;
 					e.stopPropagation();
-					clearInterval(timerId);
+                                        clearInterval(timerId);
 				})
 			})
 			
@@ -119,6 +119,8 @@
 
 			mx1 = e.screenX;
 			pos1 = belt.position();
+	
+			clearInterval(timerId);
 
 			$(document).on('mousemove', function (e) {
 				e = e || window.event;
@@ -138,52 +140,46 @@
 					left: (mx2 - mx1 - item.length*config.width) + "px"
 				});
 			});
-			
-			clearInterval(timerId);
-			
-		});
-		
-		$(document).on('mouseup', function (){
-			$(document).off('mousemove');
-			
-			if(index>0){
-				for(var i=0;i<index;i++){
-					belt.prepend($(itemLL.prev.element).clone());
-					itemLL = itemLL.prev;
-					belt.children(':last').remove();
+                        
+  	
+			$(document).on('mouseup', function (e){
+
+				$(document).off('mousemove');
+				$(document).off('mouseup');
+				if(index>0){
+					for(var i=0;i<index;i++){
+							belt.prepend($(itemLL.prev.element).clone());
+							itemLL = itemLL.prev;
+							belt.children(':last').remove();
+					}
+
+					belt.css({
+							left: -item.length*config.width - (config.width - (offset%config.width)) + "px"
+					});
+				} else if(index<0){
+					for(var i=0;i>index;i--){
+							belt.append($(itemLL.element).clone());
+							itemLL = itemLL.next;
+							belt.children(':first').remove();
+					}
+
+					belt.css({
+							left: -(item.length-1)*config.width + offset%config.width + "px"
+					});
 				}
+
+				cur_index = belt.children(":eq(6)").attr('ix');
+
+				belt.stop().animate({
+					left: -item.length*config.width + "px"
+				});	
 				
-				belt.css({
-					left: -item.length*config.width - (config.width - (offset%config.width)) + "px"
-				});
-				
-				
-				
-			} else if(index<0){
-				for(var i=0;i>index;i--){
-					belt.append($(itemLL.element).clone());
-					itemLL = itemLL.next;
-					belt.children(':first').remove();
-				}
-				
-				belt.css({
-					left: -(item.length-1)*config.width + offset%config.width + "px"
-				});
-			}
-			
-			cur_index = belt.children(":eq(6)").attr('ix');
-			
-			
-			belt.stop().animate({
-				left: -item.length*config.width + "px"
-			});	
-			switchDot();
-			timerId = setTimer();
-			
-			index = 0;
+				switchDot();
+				timerId = setTimer();
+				index = 0;
+			);    
 		});
-		
-		
+                
 		if(config.showSideBtn){
 			el.append("<div class='side-btn noselect'>&lt</div>");
 			el.append("<div class='side-btn noselect'>&gt</div>");
@@ -234,7 +230,7 @@
 			if(e!=undefined) e.stopPropagation();
 			
 			belt.css({
-				left: - (item.length-1)*config.width + "px"
+                            left: - (item.length-1)*config.width + "px"
 			});
 
 			belt.append($(itemLL.element).clone());
