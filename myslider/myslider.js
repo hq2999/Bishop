@@ -141,43 +141,49 @@
 				});
 			});
                         
-  	
-			$(document).on('mouseup', function (e){
+                        
+                        
+                        $(document).on('mouseup', function (e){
 
-				$(document).off('mousemove');
-				$(document).off('mouseup');
-				if(index>0){
-					for(var i=0;i<index;i++){
-							belt.prepend($(itemLL.prev.element).clone());
-							itemLL = itemLL.prev;
-							belt.children(':last').remove();
-					}
+                            $(document).off('mousemove');
+                            $(document).off('mouseup');
+                            if(index>0){
+                                    for(var i=0;i<index;i++){
+                                            belt.prepend($(itemLL.prev.element).clone());
+                                            itemLL = itemLL.prev;
+                                            belt.children(':last').remove();
+                                    }
 
-					belt.css({
-							left: -item.length*config.width - (config.width - (offset%config.width)) + "px"
-					});
-				} else if(index<0){
-					for(var i=0;i>index;i--){
-							belt.append($(itemLL.element).clone());
-							itemLL = itemLL.next;
-							belt.children(':first').remove();
-					}
+                                    belt.css({
+                                            left: -item.length*config.width - (config.width - (offset%config.width)) + "px"
+                                    });
 
-					belt.css({
-							left: -(item.length-1)*config.width + offset%config.width + "px"
-					});
-				}
 
-				cur_index = belt.children(":eq(6)").attr('ix');
 
-				belt.stop().animate({
-					left: -item.length*config.width + "px"
-				});	
-				
-				switchDot();
-				timerId = setTimer();
-				index = 0;
-			);    
+                            } else if(index<0){
+                                    for(var i=0;i>index;i--){
+                                            belt.append($(itemLL.element).clone());
+                                            itemLL = itemLL.next;
+                                            belt.children(':first').remove();
+                                    }
+
+                                    belt.css({
+                                            left: -(item.length-1)*config.width + offset%config.width + "px"
+                                    });
+                            }
+
+                            cur_index = belt.children(":eq(" + item.length + ")").attr('ix');
+
+
+                            belt.stop().animate({
+                                    left: -item.length*config.width + "px"
+                            });	
+                            switchDot();
+
+                            timerId = setTimer();
+
+                            index = 0;
+                    });    
 		});
                 
 		if(config.showSideBtn){
@@ -307,13 +313,12 @@
 
 /*
 
-$(document).ready(function(){
-	$('#slider').myslider({
-		width: 260,
-		height: 90,
-		size: 1,
-		showDot:true
-	});
-});
+    $('#textboard').myslider({
+        width: 750,
+        height:400,
+        time:10,
+        size:1,
+        showDot:true,
+    });
 
 */
