@@ -23,8 +23,8 @@
 			<value>oracle.jdbc.OracleDriver</value>
 		</property>
 		<property name="jdbcUrl" value="jdbc:oracle:thin:@localhost:1521:xe" />
-		<property name="user" value="C_CFS" />
-		<property name="password" value="C_CFS" />
+		<property name="user" value="guess" />
+		<property name="password" value="guess" />
 		<property name="idleConnectionTestPeriod" value="180" />
 	</bean> 
 	
