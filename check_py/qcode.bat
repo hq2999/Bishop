@@ -1,0 +1,2 @@
+python qcode.py
+pause
