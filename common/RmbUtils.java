@@ -13,12 +13,26 @@ public class RmbUtils {
             r = big2Num("壹万零壹圆");
 //            System.out.println(r.toString());
 
-            String num = "1.01";
-
+            String num = "1.00";
             String big = num2Big(num);
-            String small = big2Num(big).toString();
+            System.out.println(big);
+
+            num = "1.10000000";
+            big = num2Big(num);
+            System.out.println(big);
+
+            num = "1.1100000000";
+            big = num2Big(num);
+            System.out.println(big);
+
+            num = "1.010000000";
+            big = num2Big(num);
+            System.out.println(big);
+
+
+//            String small = big2Num(big).toString();
 //            if(!small.equals(num))
-                System.out.println(big + " " + small + " " + num);
+///*                System.out.println(big + " " + small + " " + num);*/
 
         } catch (Exception e){
             e.printStackTrace();
@@ -151,8 +165,11 @@ public class RmbUtils {
 
     static String num2Big(String strNum){
         strNum = strNum.replaceAll("^0+", "");
+
+        strNum = strNum.replaceAll("(\\.\\d{2})\\d+$", "$1");
         strNum = strNum.replaceAll("\\.0+$", "");
         strNum = strNum.replaceAll("(\\.\\d)0+$", "$1");
+
 
         String [] num = new String[] {"零", "壹", "贰", "叁", "肆", "伍", "陆", "柒", "捌", "玖"};
         String [] unit = new String[] {"", "拾", "佰", "仟"};
@@ -207,8 +224,12 @@ public class RmbUtils {
             if(tmp.length()>0) tmp = tmp + unitList.get(i);
             bigStr = tmp + bigStr;
         }
+        if(detailStr.length()==0){
+            bigStr = bigStr + "圆整";
+        } else {
+            bigStr = bigStr + "圆" + detailStr;
+        }
 
-        bigStr = bigStr + "圆" + detailStr;
         return bigStr;
     }
 
