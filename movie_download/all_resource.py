@@ -5,6 +5,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support.ui import WebDriverWait  # available since 2.4.0
 from selenium.webdriver.support import expected_conditions as EC  # available since 2.26.0
 import json
+import re
 
 caps = DesiredCapabilities.CHROME
 
@@ -37,13 +38,13 @@ option.add_experimental_option('perfLoggingPrefs',{
 
 def getUrl(url):
     with webdriver.Chrome(options=option, desired_capabilities=caps, executable_path=r"F:\softwares\chromedriver\chromedriver.exe") as driver:
-
+        driver.set_page_load_timeout(20)
         driver.get(url)
 
+        true_url = ''
         for typelog in driver.log_types:
             perfs = driver.get_log(typelog)
             for row in perfs:
-
                 t = row['message']
                 try:
                     jon = json.loads(t)
@@ -52,14 +53,36 @@ def getUrl(url):
                     if 'Network.requestWillBeSent' != method:
                         continue
 
-                    url = msg['params']['request']['url']
+                    tt = msg['params']['request']['url']
 
-                    if '1200kb/hls/index.m3u8' in url:
-                        return url
+                    if re.match(r'https://zkcdn.wb699.com/2018/10/08/[^/]+/playlist.m3u8', tt):
+                        true_url = tt
 
                 except Exception as err:
-                    # print(err)
                     pass
 
-for i in range(26, 39):
-    print(getUrl('http://www.vipdy1.com/play/142567-1-' + str(i) + '.html') + '  ' + str(i))
+        if true_url is None or true_url == '':
+            return getUrl(url)
+        else:
+            return true_url
+
+# //https://v2.dious.cc/20200909/ZIylMfpv/1000kb/hls/index.m3u8
+
+pages = """
+https://www.hk7k.com/vodplay/92400/1/6.html
+https://www.hk7k.com/vodplay/92400/1/5.html
+https://www.hk7k.com/vodplay/92400/1/4.html
+https://www.hk7k.com/vodplay/92400/1/3.html
+https://www.hk7k.com/vodplay/92400/1/2.html
+https://www.hk7k.com/vodplay/92400/1/1.html
+"""
+
+# for i in range(26, 39):
+#     print(getUrl('http://www.vipdy1.com/play/142567-1-' + str(i) + '.html') + '  ' + str(i))
+
+for ix, page in enumerate(pages.split('\n')):
+    if len(page) == 0:
+        continue
+
+    print(str(getUrl(page)) + '  ' + '亚洲怪谈(S1)' + str(ix))
+

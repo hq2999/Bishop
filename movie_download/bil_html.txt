@@ -1,0 +1,727 @@
+<div class="main-content"><div class="row page-head clearfix"><div class="breadcrumb"><p class="item cur video-title">TA的视频
+              <a href="//www.bilibili.com/medialist/play/88461692?from=space" target="_blank" class="play-all-btn"><img src="//s1.hdslb.com/bfs/static/jinkela/space/assets/play-all.png" alt="">播放全部</a></p></div><div class="v-filter-line clearfix"><div class="be-tab"><ul class="be-tab-inner clearfix"><li class="be-tab-item is-active"><input type="radio" name="be-tab-1" class="be-tab-input" value="pubdate"><span>最新发布</span></li><li class="be-tab-item"><input type="radio" name="be-tab-1" class="be-tab-input" value="click"><span>最多播放</span></li><li class="be-tab-item"><input type="radio" name="be-tab-1" class="be-tab-input" value="stow"><span>最多收藏</span></li></ul><div class="be-tab-cursor" style="transform: translateX(0px); width: 56px;"></div></div><div class="item style"><span data-style="cube" class="icon cube active"></span><span data-style="list" class="icon list"></span></div></div></div><p class="v-search-result" style="display: none;">共找到关于“
+          <span class="v-search-kw"></span>”的
+          <em class="v-search-count">98</em> 个视频</p><div id="submit-video-type-filter"><a class="active">
+            全部<span class="count">98</span></a><a class="">
+            知识<span class="count">97</span></a><a class="">
+            生活<span class="count">1</span></a></div><div id="submit-video" class="section video"><div id="video-list-style" class="cube"><div id="submit-video-list" class="content"><ul class="list-list" style="display: none;"><li data-aid="BV1Zx411h7hm" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Zx411h7hm" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/80113bae02935e8c58da73193ffad9ca1563dfe3.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 09 - 面积和斜率有什么联系？(无限个数量怎么求平均值？)"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Zx411h7hm" target="_blank" title="【官方双语】微积分的本质 - 09 - 面积和斜率有什么联系？(无限个数量怎么求平均值？)" class="title">【官方双语】微积分的本质 - 09 - 面积和斜率有什么联系？(无限个数量怎么求平均值？)</a></div><div title="积分可以用来求连续变量的平均值。我们可以通过这一点来解释为什么积分和求导互为逆运算。另一个不同的解释请见上期视频。
+
+完整系列（更新中）：http://t.cn/RS61tnH
+感谢Patreon上各位的赞助：patreon.com/3blue1brown
+特别感谢以下的赞助者：3b1b.co/eoc8-thanks
+
+更多信息请看下方评论
+
+翻译：@沐缅、@ZSC  时间轴：@白日梦" class="desc">
+                      积分可以用来求连续变量的平均值。我们可以通过这一点来解释为什么积分和求导互为逆运算。另一个不同的解释请见上期视频。
+
+完整系列（更新中）：http://t.cn/RS61tnH
+感谢Patreon上各位的赞助：patreon.com/3blue1brown
+特别感谢以下的赞助者：3b1b.co/eoc8-thanks
+
+更多信息请看下方评论
+
+翻译：@沐缅、@ZSC  时间轴：@白日梦
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>6.3万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>395
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-6-3
+                      </span></div></div></li><li data-aid="BV14x411Y7B5" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV14x411Y7B5" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/99f162b9d807b5c01e024b200d5eb11467965d9f.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 08 - 积分与微积分基本定理"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV14x411Y7B5" target="_blank" title="【官方双语】微积分的本质 - 08 - 积分与微积分基本定理" class="title">【官方双语】微积分的本质 - 08 - 积分与微积分基本定理</a></div><div title="积分是什么？你是如何看待它的呢？
+
+访问“解题之道”网站：aops.com/3blue1brown
+
+上期视频：av10731390
+感谢Patreon上各位的赞助：patreon.com/3blue1brown
+特别感谢以下的赞助者：3b1b.co/eoc8-thanks
+
+更多信息请看下方评论
+
+翻译：@蛋卷、@圆桌字幕组  时间轴：@渡鸦
+Integration and the fundamental theorem of calculus - Ch. 8, EoC" class="desc">
+                      积分是什么？你是如何看待它的呢？
+
+访问“解题之道”网站：aops.com/3blue1brown
+
+上期视频：av10731390
+感谢Patreon上各位的赞助：patreon.com/3blue1brown
+特别感谢以下的赞助者：3b1b.co/eoc8-thanks
+
+更多信息请看下方评论
+
+翻译：@蛋卷、@圆桌字幕组  时间轴：@渡鸦
+Integration and the fundamental theorem of calculus - Ch. 8, EoC
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>9.1万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>685
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-5-25
+                      </span></div></div></li><li data-aid="BV1Rx411v7gV" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Rx411v7gV" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/a2a4f3fc85c2a54fca565002081a2fecd6c4b35e.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 07 - 极限"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Rx411v7gV" target="_blank" title="【官方双语】微积分的本质 - 07 - 极限" class="title">【官方双语】微积分的本质 - 07 - 极限</a></div><div title="求导的正式化，极限的ε-δ定义，以及洛必达法则的原理。
+
+3Blue1Brown商店：http://3b1b.co/store
+请告诉我你们还希望能买到什么。
+
+上期视频：av10686474
+感谢Patreon上各位的赞助：https://patreon.com/3blue1brown
+特别感谢以下的赞助者：http://3b1b.co/eoc7-thanks
+
+更多信息请看下方评论
+
+翻译：@野渡啊渡、@FPS罗兹  时间轴：@柠檬整个吃
+Limits - Ch. 7, EoC" class="desc">
+                      求导的正式化，极限的ε-δ定义，以及洛必达法则的原理。
+
+3Blue1Brown商店：http://3b1b.co/store
+请告诉我你们还希望能买到什么。
+
+上期视频：av10686474
+感谢Patreon上各位的赞助：https://patreon.com/3blue1brown
+特别感谢以下的赞助者：http://3b1b.co/eoc7-thanks
+
+更多信息请看下方评论
+
+翻译：@野渡啊渡、@FPS罗兹  时间轴：@柠檬整个吃
+Limits - Ch. 7, EoC
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>10万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>833
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-5-21
+                      </span></div></div></li><li data-aid="BV1kx411v7r8" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1kx411v7r8" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/d0390ba714cd4d73749b70f59c80359cff31261e.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 06 - 隐函数求导是怎么回事？"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1kx411v7r8" target="_blank" title="【官方双语】微积分的本质 - 06 - 隐函数求导是怎么回事？" class="title">【官方双语】微积分的本质 - 06 - 隐函数求导是怎么回事？</a></div><div title="隐函数求导是很奇怪，但一旦你把等式两边分别看做两个二元函数f(x,y)，一切就都变得合理多了。
+
+上期视频：av10538038
+感谢Patreon上各位的赞助：patreon.com/3blue1brown
+特别感谢以下的赞助者：3b1b.co/eoc6-thanks
+
+更多信息请看下方评论
+
+翻译：@FPS罗兹、@圆桌字幕组  时间轴：@做白日梦zzz
+Implicit differentiation, what's going on here? - Ch. 6, EoC" class="desc">
+                      隐函数求导是很奇怪，但一旦你把等式两边分别看做两个二元函数f(x,y)，一切就都变得合理多了。
+
+上期视频：av10538038
+感谢Patreon上各位的赞助：patreon.com/3blue1brown
+特别感谢以下的赞助者：3b1b.co/eoc6-thanks
+
+更多信息请看下方评论
+
+翻译：@FPS罗兹、@圆桌字幕组  时间轴：@做白日梦zzz
+Implicit differentiation, what's going on here? - Ch. 6, EoC
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>19.7万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1108
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-5-20
+                      </span></div></div></li><li data-aid="BV11x411e7FN" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV11x411e7FN" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/d9e7e25fef26f0755b794b14752331a8e2b3e8b3.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 05 - 指数函数求导"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV11x411e7FN" target="_blank" title="【官方双语】微积分的本质 - 05 - 指数函数求导" class="title">【官方双语】微积分的本质 - 05 - 指数函数求导</a></div><div title="e是什么？为什么指数函数会和它们自己的导数成正比？
+
+上期视频：av10435213
+感谢Patreon上各位的赞助：https://patreon.com/3blue1brown
+特别感谢以下的赞助者：﻿http://3b1b.co/eoc5-thanks﻿
+
+更多信息请看下方评论
+
+翻译：@蛋卷、@圆桌字幕组  时间轴：@渡鸦
+Derivatives of exponentials - Ch. 5, EoC" class="desc">
+                      e是什么？为什么指数函数会和它们自己的导数成正比？
+
+上期视频：av10435213
+感谢Patreon上各位的赞助：https://patreon.com/3blue1brown
+特别感谢以下的赞助者：﻿http://3b1b.co/eoc5-thanks﻿
+
+更多信息请看下方评论
+
+翻译：@蛋卷、@圆桌字幕组  时间轴：@渡鸦
+Derivatives of exponentials - Ch. 5, EoC
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>11.2万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>787
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-5-13
+                      </span></div></div></li><li data-aid="BV1Sx411m7Zz" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Sx411m7Zz" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/bfceefbcbfa9d9a74e4d52bdd85dae29e2ad8b63.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 04 - 直观理解链式法则和乘积法则"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Sx411m7Zz" target="_blank" title="【官方双语】微积分的本质 - 04 - 直观理解链式法则和乘积法则" class="title">【官方双语】微积分的本质 - 04 - 直观理解链式法则和乘积法则</a></div><div title="链式法则和乘积法则的形象解释，以及它们之所以成立的原因。
+
+更多信息请看下方评论
+
+翻译：@Solara570、@圆桌字幕组  时间轴：@做白日梦zzz
+Visualizing the chain rule and product rule - Ch. 4, EoC" class="desc">
+                      链式法则和乘积法则的形象解释，以及它们之所以成立的原因。
+
+更多信息请看下方评论
+
+翻译：@Solara570、@圆桌字幕组  时间轴：@做白日梦zzz
+Visualizing the chain rule and product rule - Ch. 4, EoC
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>10.7万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>869
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-5-9
+                      </span></div></div></li><li data-aid="BV1zx411m7Le" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1zx411m7Le" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/e2174652d38f3babb3f564d3071df78ec81880db.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 03 - 用几何来求导"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1zx411m7Le" target="_blank" title="【官方双语】微积分的本质 - 03 - 用几何来求导" class="title">【官方双语】微积分的本质 - 03 - 用几何来求导</a></div><div title="一些求导公式，例如幂函数求导和正弦函数求导，通过几何的方式直观地呈现出来。
+
+访问Brilliant：﻿https://brilliant.org/3b1b﻿
+上期视频：av10352133
+感谢Patreon上各位的赞助：https://patreon.com/3blue1brown
+
+更多信息请看下方评论
+
+翻译：@渡鸦
+Derivative formulas through geometry - Ch. 3, EoC" class="desc">
+                      一些求导公式，例如幂函数求导和正弦函数求导，通过几何的方式直观地呈现出来。
+
+访问Brilliant：﻿https://brilliant.org/3b1b﻿
+上期视频：av10352133
+感谢Patreon上各位的赞助：https://patreon.com/3blue1brown
+
+更多信息请看下方评论
+
+翻译：@渡鸦
+Derivative formulas through geometry - Ch. 3, EoC
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>13.2万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1289
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-5-7
+                      </span></div></div></li><li data-aid="BV1Lx411m7Vj" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Lx411m7Vj" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/eaad70bd24e72046cdcde7d6d69b4d8525a01ca5.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 02 - 导数的悖论"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Lx411m7Vj" target="_blank" title="【官方双语】微积分的本质 - 02 - 导数的悖论" class="title">【官方双语】微积分的本质 - 02 - 导数的悖论</a></div><div title="一瞬间的变化没有什么道理，但却是导数想表达出的含义。这是怎么回事？
+
+访问“解题之道”网站：https://aops.com/3blue1brown
+上期视频：av10308208
+感谢Patreon上各位的赞助：https://patreon.com/3blue1brown
+
+更多信息请看下方评论
+
+翻译：@FPS罗兹、@圆桌字幕组  时间轴+后期：@做白日梦zzz
+The paradox of the derivative - Ch. 2, EoC" class="desc">
+                      一瞬间的变化没有什么道理，但却是导数想表达出的含义。这是怎么回事？
+
+访问“解题之道”网站：https://aops.com/3blue1brown
+上期视频：av10308208
+感谢Patreon上各位的赞助：https://patreon.com/3blue1brown
+
+更多信息请看下方评论
+
+翻译：@FPS罗兹、@圆桌字幕组  时间轴+后期：@做白日梦zzz
+The paradox of the derivative - Ch. 2, EoC
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>17.3万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1423
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-5-6
+                      </span></div></div></li><li data-aid="BV1cx411m78R" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1cx411m78R" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/11aab6ed64acf0bf9ca9d48ec97796a724490427.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 01 -"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1cx411m78R" target="_blank" title="【官方双语】微积分的本质 - 01 -" class="title">【官方双语】微积分的本质 - 01 -</a></div><div title="在系列第一期视频里，我们将通过一个简单的几何问题（求圆的面积），联系到积分，导数和微积分基本定理。我的目标是让你觉得自己也能发明微积分。
+
+YouTube完整列表: http://3b1b.co/calculus
+
+感谢Patreon上各位的赞助: https://patreon.com/3blue1brown
+更多信息请看下方评论
+
+翻译：@圆桌字幕组、@昨梦电羊  时间轴+压制：@做白日梦zzz
+Essence of calculus, chapter 1" class="desc">
+                      在系列第一期视频里，我们将通过一个简单的几何问题（求圆的面积），联系到积分，导数和微积分基本定理。我的目标是让你觉得自己也能发明微积分。
+
+YouTube完整列表: http://3b1b.co/calculus
+
+感谢Patreon上各位的赞助: https://patreon.com/3blue1brown
+更多信息请看下方评论
+
+翻译：@圆桌字幕组、@昨梦电羊  时间轴+压制：@做白日梦zzz
+Essence of calculus, chapter 1
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>45.1万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1685
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-5-4
+                      </span></div></div></li><li data-aid="BV15x411D7F8" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV15x411D7F8" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/61376064f3c4f4ae19c8a11d73401c91780f3ba6.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】用球面映射巧解分赃难题：拓扑学的另一妙用"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV15x411D7F8" target="_blank" title="【官方双语】用球面映射巧解分赃难题：拓扑学的另一妙用" class="title">【官方双语】用球面映射巧解分赃难题：拓扑学的另一妙用</a></div><div title="用拓扑学中的Borsuk-Ulam定理解开一道计数谜题。出乎意料、妙不可言。
+更多信息请看下方评论
+
+翻译：@野渡啊渡、@Peihong、@昨梦电羊、@圆桌字幕组
+Who (else) cares about topology? Stolen necklaces and Borsuk-Ulam (http://youtu.be/FhSFkLhDANA)" class="desc">
+                      用拓扑学中的Borsuk-Ulam定理解开一道计数谜题。出乎意料、妙不可言。
+更多信息请看下方评论
+
+翻译：@野渡啊渡、@Peihong、@昨梦电羊、@圆桌字幕组
+Who (else) cares about topology? Stolen necklaces and Borsuk-Ulam (http://youtu.be/FhSFkLhDANA)
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>6.7万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>760
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-4-16
+                      </span></div></div></li><li data-aid="BV1mx411D7Vx" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1mx411D7Vx" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/d7c029733e4adba0dcfa1d1680c71dcbb0193ece.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】数学上的文身"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1mx411D7Vx" target="_blank" title="【官方双语】数学上的文身" class="title">【官方双语】数学上的文身</a></div><div title="我的一个朋友最近文了一个代表余割函数的文身。这让我想到，这个函数在某种意义上也算是数学上的文身。
+
+翻译：@梦瑶 @solara
+资助页面：www.patreon.com/3blue1brown
+网店：https://store.dftba.com/collections/3blue1brown
+免费试用Audible一个月：http://www.audibletrial.com/3blue1brown
+Tattoos on Math (https://youtu.be/IxNb1WG_Ido)" class="desc">
+                      我的一个朋友最近文了一个代表余割函数的文身。这让我想到，这个函数在某种意义上也算是数学上的文身。
+
+翻译：@梦瑶 @solara
+资助页面：www.patreon.com/3blue1brown
+网店：https://store.dftba.com/collections/3blue1brown
+免费试用Audible一个月：http://www.audibletrial.com/3blue1brown
+Tattoos on Math (https://youtu.be/IxNb1WG_Ido)
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>3.8万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>241
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-3-28
+                      </span></div></div></li><li data-aid="BV1wx411C7WT" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1wx411C7WT" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/0ccc8775f055feeca63a69c60565b8cdd6298d55.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】分形并不一定自相似"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1wx411C7WT" target="_blank" title="【官方双语】分形并不一定自相似" class="title">【官方双语】分形并不一定自相似</a></div><div title="分形是什么？“1.5维”究竟是什么意思？我们来借助分形维度这一重要的概念，真正地理解分形的本质。
+更多信息见下方评论
+
+翻译：@圆桌字幕组
+资助页面：www.patreon.com/3blue1brown
+Affirm链接: https://affirmjobs.3b1b.co
+Fractals are not self-similar (https://youtu.be/gB9n2gHsHN4)" class="desc">
+                      分形是什么？“1.5维”究竟是什么意思？我们来借助分形维度这一重要的概念，真正地理解分形的本质。
+更多信息见下方评论
+
+翻译：@圆桌字幕组
+资助页面：www.patreon.com/3blue1brown
+Affirm链接: https://affirmjobs.3b1b.co
+Fractals are not self-similar (https://youtu.be/gB9n2gHsHN4)
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>6.1万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>375
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-3-6
+                      </span></div></div></li><li data-aid="BV1tx411y7VG" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1tx411y7VG" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/a8d9c836b57ded5f3a3cfb30185808fab299e814.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】黎曼ζ函数与解析延拓的可视化"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1tx411y7VG" target="_blank" title="【官方双语】黎曼ζ函数与解析延拓的可视化" class="title">【官方双语】黎曼ζ函数与解析延拓的可视化</a></div><div title="通过直观的动画演示，教你从变换的视角来看黎曼ζ函数，揭晓解析延拓背后优美的几何直觉，最后简要介绍与黎曼ζ函数相关的千禧年大奖难题“黎曼猜想”。
+更多信息见下方3Blue1Brown的评论
+
+翻译：@Solara570、@rjdimo
+资助页面：www.patreon.com/3blue1brown
+Visualizing the Riemann zeta function and analytic continuation (https://youtu.be/sD0NjbwqlYw)" class="desc">
+                      通过直观的动画演示，教你从变换的视角来看黎曼ζ函数，揭晓解析延拓背后优美的几何直觉，最后简要介绍与黎曼ζ函数相关的千禧年大奖难题“黎曼猜想”。
+更多信息见下方3Blue1Brown的评论
+
+翻译：@Solara570、@rjdimo
+资助页面：www.patreon.com/3blue1brown
+Visualizing the Riemann zeta function and analytic continuation (https://youtu.be/sD0NjbwqlYw)
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>20.3万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1340
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2017-2-20
+                      </span></div></div></li><li data-aid="BV1es411e7Gv" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1es411e7Gv" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/faccff96442ec771bb729f9e0c6623042ab2231d.jpg@380w_240h_100Q_1c.webp" alt="隐藏在汉诺塔中的分形曲线"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1es411e7Gv" target="_blank" title="隐藏在汉诺塔中的分形曲线" class="title">隐藏在汉诺塔中的分形曲线</a></div><div title="只要在经典的汉诺塔游戏上略作修改，我们就可以把原先的二进制解法转换成三进制。神奇的是，我们还可以用这个新的三进制解法，找到一条填满谢尔宾斯基三角形的分形曲线。
+上篇：av7398130
+翻译鸣谢：@圆桌字幕组
+原名称：Binary, Hanoi, and Sierpinski, part 2
+原链接：youtu.be/bdMfjfT0lKk
+资助页面：www.patreon.com/3blue1brown
+" class="desc">
+                      只要在经典的汉诺塔游戏上略作修改，我们就可以把原先的二进制解法转换成三进制。神奇的是，我们还可以用这个新的三进制解法，找到一条填满谢尔宾斯基三角形的分形曲线。
+上篇：av7398130
+翻译鸣谢：@圆桌字幕组
+原名称：Binary, Hanoi, and Sierpinski, part 2
+原链接：youtu.be/bdMfjfT0lKk
+资助页面：www.patreon.com/3blue1brown
+
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>3.4万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>281
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-12-15
+                      </span></div></div></li><li data-aid="BV1rs411Y76X" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1rs411Y76X" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/78b0fac0272a4d06d7e7c6c3112ae4f926482a4e.jpg@380w_240h_100Q_1c.webp" alt="用二进制来解汉诺塔问题"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1rs411Y76X" target="_blank" title="用二进制来解汉诺塔问题" class="title">用二进制来解汉诺塔问题</a></div><div title="经典的汉诺塔游戏有一个诡秘奇巧的解法：只要用二进制来数数、并相应地移动圆盘就可以了！而且这个解法还能用来找出一个分形的填充曲线。
+下篇：av7539453
+翻译鸣谢：@圆桌字幕组
+原名称：Binary, Hanoi and Sierpinski, part 1
+原链接：youtu.be/2SUvWfNJSsM
+资助页面：www.patreon.com/3blue1brown" class="desc">
+                      经典的汉诺塔游戏有一个诡秘奇巧的解法：只要用二进制来数数、并相应地移动圆盘就可以了！而且这个解法还能用来找出一个分形的填充曲线。
+下篇：av7539453
+翻译鸣谢：@圆桌字幕组
+原名称：Binary, Hanoi and Sierpinski, part 1
+原链接：youtu.be/2SUvWfNJSsM
+资助页面：www.patreon.com/3blue1brown
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>7.3万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>687
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-12-5
+                      </span></div></div></li><li data-aid="BV1rs411x7sb" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1rs411x7sb" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/4866638723f351468141546f4cb2392b4814c433.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】用莫比乌斯带巧解内接矩形问题：拓扑学的用处"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1rs411x7sb" target="_blank" title="【官方双语】用莫比乌斯带巧解内接矩形问题：拓扑学的用处" class="title">【官方双语】用莫比乌斯带巧解内接矩形问题：拓扑学的用处</a></div><div title="拓扑学中的环面和莫比乌斯带经常出现在趣味数学的话题中，可是这些东西除了好玩之外，究竟对解决具体的数学问题有什么用处呢？这期视频要分享一个表面上跟拓扑学好像没什么关系的数学难题，看看怎样利用拓扑学给它一个无比巧妙的证明，启发你思考拓扑学的意义。
+翻译：昨梦电羊
+资助页面：www.patreon.com/3blue1brown
+Who cares about topology? (Inscribed rectangle problem)  youtu.be/AmgkSdhK4K8
+
+" class="desc">
+                      拓扑学中的环面和莫比乌斯带经常出现在趣味数学的话题中，可是这些东西除了好玩之外，究竟对解决具体的数学问题有什么用处呢？这期视频要分享一个表面上跟拓扑学好像没什么关系的数学难题，看看怎样利用拓扑学给它一个无比巧妙的证明，启发你思考拓扑学的意义。
+翻译：昨梦电羊
+资助页面：www.patreon.com/3blue1brown
+Who cares about topology? (Inscribed rectangle problem)  youtu.be/AmgkSdhK4K8
+
+
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>15.6万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1580
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-11-11
+                      </span></div></div></li><li data-aid="BV1ys411472E" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ys411472E" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/c81a8eb032f3eaa1afd604272a410ac6896f281e.jpg@380w_240h_100Q_1c.webp" alt="【官方双语/合集】线性代数的本质 - 系列合集"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1ys411472E" target="_blank" title="【官方双语/合集】线性代数的本质 - 系列合集" class="title">【官方双语/合集】线性代数的本质 - 系列合集</a></div><div title="通过直观的动画演示，理解线性代数的大部分核心概念
+翻译：@Solara570  @rjdimo
+资助页面：www.patreon.com/3blue1brown
+Essence of linear algebra  http://bit.ly/2kDa5o0" class="desc">
+                      通过直观的动画演示，理解线性代数的大部分核心概念
+翻译：@Solara570  @rjdimo
+资助页面：www.patreon.com/3blue1brown
+Essence of linear algebra  http://bit.ly/2kDa5o0
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>161.4万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1.8万
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-10-18
+                      </span></div></div></li><li data-aid="BV1ps41147Z5" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ps41147Z5" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/ee96d48c2acd9c7a3699d95ea8e9d0fc7d623214.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】线性代数的本质 - 11 - 抽象向量空间"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1ps41147Z5" target="_blank" title="【官方双语】线性代数的本质 - 11 - 抽象向量空间" class="title">【官方双语】线性代数的本质 - 11 - 抽象向量空间</a></div><div title="11 - 向量是什么？这个问题看似简单，实则不然
+线性代数的本质系列
+翻译：@Solara570  @rjdimo
+资助页面：www.patreon.com/3blue1brown
+Abstract vector spaces | Essence of linear algebra, chapter 11  youtu.be/TgKwz5Ikpc8" class="desc">
+                      11 - 向量是什么？这个问题看似简单，实则不然
+线性代数的本质系列
+翻译：@Solara570  @rjdimo
+资助页面：www.patreon.com/3blue1brown
+Abstract vector spaces | Essence of linear algebra, chapter 11  youtu.be/TgKwz5Ikpc8
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>7.2万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>808
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-10-13
+                      </span></div></div></li><li data-aid="BV1Ls411b7oL" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Ls411b7oL" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/58eed60e2d979311a7221d57c05bc19a035d8741.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 10 - 特征向量与特征值"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Ls411b7oL" target="_blank" title="【熟肉】线性代数的本质 - 10 - 特征向量与特征值" class="title">【熟肉】线性代数的本质 - 10 - 特征向量与特征值</a></div><div title="视频源地址：https://www.youtube.com/watch?v=PFDu9oVAE-g
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+10 - 特征向量与特征值的介绍" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=PFDu9oVAE-g
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+10 - 特征向量与特征值的介绍
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>14万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>884
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-10-5
+                      </span></div></div></li><li data-aid="BV1Ls411b7r2" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Ls411b7r2" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/2e3d9fcbcb7b0385f3fbc4acb9588e61e5958399.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 09 - 基变换"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Ls411b7r2" target="_blank" title="【熟肉】线性代数的本质 - 09 - 基变换" class="title">【熟肉】线性代数的本质 - 09 - 基变换</a></div><div title="视频源地址：https://www.youtube.com/watch?v=P2LTAUO1TdA
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+09 - 基变换及其矩阵表示" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=P2LTAUO1TdA
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+09 - 基变换及其矩阵表示
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>9.1万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>546
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-10-2
+                      </span></div></div></li><li data-aid="BV18s411t7mD" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV18s411t7mD" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/466f18297d53cdc24783e53d921e63ae37bb1a41.jpg@380w_240h_100Q_1c.webp" alt="最速降线问题：最快下滑路径为什么是旋轮线？（中英字幕）"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV18s411t7mD" target="_blank" title="最速降线问题：最快下滑路径为什么是旋轮线？（中英字幕）" class="title">最速降线问题：最快下滑路径为什么是旋轮线？（中英字幕）</a></div><div title="【3Blue1Brown@Youtube】 最速降线（Brachistochrone）是数学史上的经典问题：物体沿什么形状的坡道从一点滑落到另一点所用时间最短？可能很多人已经知道答案是旋轮线，即一个圆在直线上滚动时，圆周上的一点画出的曲线。但这是为什么？就算你会用变分法求出答案，也不一定理解滑落路径跟滚动的轮子有什么关系。这次3Blue1Brown就来跟数学家Steven Strogatz一起聊聊最速降线问题的历史、最初的巧妙解法，以及如何理解它跟旋轮线的关系。最后还有一道挑战题供大家思考。 翻" class="desc">
+                      【3Blue1Brown@Youtube】 最速降线（Brachistochrone）是数学史上的经典问题：物体沿什么形状的坡道从一点滑落到另一点所用时间最短？可能很多人已经知道答案是旋轮线，即一个圆在直线上滚动时，圆周上的一点画出的曲线。但这是为什么？就算你会用变分法求出答案，也不一定理解滑落路径跟滚动的轮子有什么关系。这次3Blue1Brown就来跟数学家Steven Strogatz一起聊聊最速降线问题的历史、最初的巧妙解法，以及如何理解它跟旋轮线的关系。最后还有一道挑战题供大家思考。 翻
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>26.2万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>2532
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-9-23
+                      </span></div></div></li><li data-aid="BV1vs411t7w9" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1vs411t7w9" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/c7f333cbe604f091a53e70aee98540893fdbf760.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 08第二部分 - 以线性变换的眼光看叉积"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1vs411t7w9" target="_blank" title="【熟肉】线性代数的本质 - 08第二部分 - 以线性变换的眼光看叉积" class="title">【熟肉】线性代数的本质 - 08第二部分 - 以线性变换的眼光看叉积</a></div><div title="视频源地址：https://www.youtube.com/watch?v=BaM7OCEm3G0
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+08第二部分 - 利用对偶性的思想，从线性变换的角度看叉积的计算过程和几何意义" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=BaM7OCEm3G0
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+08第二部分 - 利用对偶性的思想，从线性变换的角度看叉积的计算过程和几何意义
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>6.7万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>381
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-9-22
+                      </span></div></div></li><li data-aid="BV1js411t7qS" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1js411t7qS" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/c6f935bcd769bd1e3252399c7f42d5a541f0c265.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 08第一部分 - 叉积的标准介绍"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1js411t7qS" target="_blank" title="【熟肉】线性代数的本质 - 08第一部分 - 叉积的标准介绍" class="title">【熟肉】线性代数的本质 - 08第一部分 - 叉积的标准介绍</a></div><div title="视频源地址：https://www.youtube.com/watch?v=eu6i7WJeinw
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+08第一部分 - 叉积的标准介绍——如何计算及其几何意义" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=eu6i7WJeinw
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+08第一部分 - 叉积的标准介绍——如何计算及其几何意义
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>7.6万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>224
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-9-19
+                      </span></div></div></li><li data-aid="BV13s411t7fe" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV13s411t7fe" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/ccd48926a1a19baecc93feafd39c81026590c209.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 07 - 点积与对偶性"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV13s411t7fe" target="_blank" title="【熟肉】线性代数的本质 - 07 - 点积与对偶性" class="title">【熟肉】线性代数的本质 - 07 - 点积与对偶性</a></div><div title="视频源地址：https://www.youtube.com/watch?v=LyGKycYT2v0
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+07 - 与特定向量的点积可以看作投影并缩放的线性变换" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=LyGKycYT2v0
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+07 - 与特定向量的点积可以看作投影并缩放的线性变换
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>12.2万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>836
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-9-16
+                      </span></div></div></li><li data-aid="BV1ns411r7NX" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ns411r7NX" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/82ab1d6e177087fe5f7983d2fee1d06a527061fc.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 06补充说明 - 非方阵"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1ns411r7NX" target="_blank" title="【熟肉】线性代数的本质 - 06补充说明 - 非方阵" class="title">【熟肉】线性代数的本质 - 06补充说明 - 非方阵</a></div><div title="视频源地址：https://www.youtube.com/watch?v=v8VSDg_WQlA
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+06补充说明 - 非方阵——不同维度的空间之间的线性变换" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=v8VSDg_WQlA
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+06补充说明 - 非方阵——不同维度的空间之间的线性变换
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>6.7万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>186
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-9-11
+                      </span></div></div></li><li data-aid="BV1ns411r7dE" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ns411r7dE" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/369c8b4af564cb93e964cd61aef4405e0f509835.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 06 - 逆矩阵、列空间与零空间"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1ns411r7dE" target="_blank" title="【熟肉】线性代数的本质 - 06 - 逆矩阵、列空间与零空间" class="title">【熟肉】线性代数的本质 - 06 - 逆矩阵、列空间与零空间</a></div><div title="视频源地址：https://www.youtube.com/watch?v=uQhTuRlWMxw
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+06 - 逆矩阵、列空间、秩与零空间等概念的简介" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=uQhTuRlWMxw
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+06 - 逆矩阵、列空间、秩与零空间等概念的简介
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>14.9万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1003
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-9-11
+                      </span></div></div></li><li data-aid="BV1Qs41167bP" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Qs41167bP" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/768b4cd879e6fcbe7575c219ee989d03e4702910.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 05 - 行列式"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Qs41167bP" target="_blank" title="【熟肉】线性代数的本质 - 05 - 行列式" class="title">【熟肉】线性代数的本质 - 05 - 行列式</a></div><div title="视频源地址：https://www.youtube.com/watch?v=Ip3X9LOh2dk 线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+05 - 行列式是度量线性变换对空间变化的因子" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=Ip3X9LOh2dk 线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+05 - 行列式是度量线性变换对空间变化的因子
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>16.7万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1125
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-9-6
+                      </span></div></div></li><li data-aid="BV1Ss41167dG" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Ss41167dG" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/ffac5c1e315020fd9818415586daf8f6377acb96.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 04补充 - 三维空间中的线性变换"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Ss41167dG" target="_blank" title="【熟肉】线性代数的本质 - 04补充 - 三维空间中的线性变换" class="title">【熟肉】线性代数的本质 - 04补充 - 三维空间中的线性变换</a></div><div title="视频源地址：https://www.youtube.com/watch?v=rHLEWRxRGiM
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+
+04补充内容 - 三维空间中的线性变换" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=rHLEWRxRGiM
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+
+04补充内容 - 三维空间中的线性变换
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>7.3万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>155
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-9-3
+                      </span></div></div></li><li data-aid="BV1ms41167u9" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ms41167u9" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/23a684bbc031154390aad458fab9463aecfd7474.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 04 - 矩阵乘法与线性变换复合"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1ms41167u9" target="_blank" title="【熟肉】线性代数的本质 - 04 - 矩阵乘法与线性变换复合" class="title">【熟肉】线性代数的本质 - 04 - 矩阵乘法与线性变换复合</a></div><div title="视频源地址：https://www.youtube.com/watch?v=XkY2DOUCWMU
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+04 - 矩阵乘法与线性变换复合的联系" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=XkY2DOUCWMU
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+04 - 矩阵乘法与线性变换复合的联系
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>18.5万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>925
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-9-2
+                      </span></div></div></li><li data-aid="BV1ns41167b9" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ns41167b9" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/0219069564b932809621ec68000216edb129024b.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 03 - 矩阵与线性变换"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1ns41167b9" target="_blank" title="【熟肉】线性代数的本质 - 03 - 矩阵与线性变换" class="title">【熟肉】线性代数的本质 - 03 - 矩阵与线性变换</a></div><div title="视频源地址：https://www.youtube.com/watch?v=kYB8IZa5AuE 线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+03 - 线性变换的简介，以及线性变换与矩阵之间的对应关系" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=kYB8IZa5AuE 线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+校对：@rjdimo
+
+03 - 线性变换的简介，以及线性变换与矩阵之间的对应关系
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>25.9万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1336
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-8-27
+                      </span></div></div></li></ul><ul class="clearfix cube-list"><li data-aid="BV1Zx411h7hm" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Zx411h7hm" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/80113bae02935e8c58da73193ffad9ca1563dfe3.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 09 - 面积和斜率有什么联系？(无限个数量怎么求平均值？)"><span class="length">12:39</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1Zx411h7hm" target="_blank" title="【官方双语】微积分的本质 - 09 - 面积和斜率有什么联系？(无限个数量怎么求平均值？)" class="title">【官方双语】微积分的本质 - 09 - 面积和斜率有什么联系？(无限个数量怎么求平均值？)</a><div class="meta"><span class="play"><i class="icon"></i>6.3万
+                    </span><span class="time"><i class="icon"></i>2017-6-3
+                    </span></div></li><li data-aid="BV14x411Y7B5" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV14x411Y7B5" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/99f162b9d807b5c01e024b200d5eb11467965d9f.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 08 - 积分与微积分基本定理"><span class="length">20:46</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV14x411Y7B5" target="_blank" title="【官方双语】微积分的本质 - 08 - 积分与微积分基本定理" class="title">【官方双语】微积分的本质 - 08 - 积分与微积分基本定理</a><div class="meta"><span class="play"><i class="icon"></i>9.1万
+                    </span><span class="time"><i class="icon"></i>2017-5-25
+                    </span></div></li><li data-aid="BV1Rx411v7gV" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Rx411v7gV" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/a2a4f3fc85c2a54fca565002081a2fecd6c4b35e.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 07 - 极限"><span class="length">18:27</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1Rx411v7gV" target="_blank" title="【官方双语】微积分的本质 - 07 - 极限" class="title">【官方双语】微积分的本质 - 07 - 极限</a><div class="meta"><span class="play"><i class="icon"></i>10万
+                    </span><span class="time"><i class="icon"></i>2017-5-21
+                    </span></div></li><li data-aid="BV1kx411v7r8" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1kx411v7r8" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/d0390ba714cd4d73749b70f59c80359cff31261e.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 06 - 隐函数求导是怎么回事？"><span class="length">15:34</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1kx411v7r8" target="_blank" title="【官方双语】微积分的本质 - 06 - 隐函数求导是怎么回事？" class="title">【官方双语】微积分的本质 - 06 - 隐函数求导是怎么回事？</a><div class="meta"><span class="play"><i class="icon"></i>19.7万
+                    </span><span class="time"><i class="icon"></i>2017-5-20
+                    </span></div></li><li data-aid="BV11x411e7FN" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV11x411e7FN" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/d9e7e25fef26f0755b794b14752331a8e2b3e8b3.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 05 - 指数函数求导"><span class="length">13:50</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV11x411e7FN" target="_blank" title="【官方双语】微积分的本质 - 05 - 指数函数求导" class="title">【官方双语】微积分的本质 - 05 - 指数函数求导</a><div class="meta"><span class="play"><i class="icon"></i>11.2万
+                    </span><span class="time"><i class="icon"></i>2017-5-13
+                    </span></div></li><li data-aid="BV1Sx411m7Zz" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Sx411m7Zz" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/bfceefbcbfa9d9a74e4d52bdd85dae29e2ad8b63.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 04 - 直观理解链式法则和乘积法则"><span class="length">16:52</span><span class="i-watchlater"></span><!----><div class="fake-danmu-mask" style="opacity: 1; display: none;"></div><div class="fake-danmu" style="display: none;"><div class="fake-danmu-item">是右下角好吗233333</div><div class="fake-danmu-item">四次方体上希尔伯特空间</div><div class="fake-danmu-item">这是爱吗</div><div class="fake-danmu-item">高中物理平抛运动罢了。</div><div class="fake-danmu-item">消去高阶小量</div><div class="fake-danmu-item">卧槽</div><div class="fake-danmu-item">建议这里还是把严格定义学清楚。。这样虽然直观，但是太“物理”了</div><div class="fake-danmu-item">瞬间理解了当n为整数时的倒数</div><div class="fake-danmu-item">太牛逼了</div><div class="fake-danmu-item">楼上的太真实了</div><div class="fake-danmu-item">太爷爷我晓得了</div><div class="fake-danmu-item">回忆起被求导支配的恐惧</div><div class="fake-danmu-item">做数学题左，做大物题右</div><div class="fake-danmu-item">我悟了</div><div class="fake-danmu-item">神tm线代</div><div class="fake-danmu-item">爷懂了</div><div class="fake-danmu-item">666</div><div class="fake-danmu-item">基础不牢，地动山摇</div><div class="fake-danmu-item">简单易懂</div><div class="fake-danmu-item">这是正切</div></div><div class="preview-bg" style="background-position: 0px 0px; background-size: 1900px;"></div><div class="preview-wrapper"><div class="preview-loading"></div><div class="preview-progress"><div class="preview-progress-bar" style="width: 1%;"></div></div></div><div class="fake-danmu"><div class="fake-danmu-item">这用导数的定义直接推是不是更简单些</div><div class="fake-danmu-item">暂停算出来了 是x方cosx+2xsinx 也就是两者的本体和导数交叉相乘的和</div><div class="fake-danmu-item">就是两个函数总共增加了多少 相当于加法结合律</div><div class="fake-danmu-item">好有道理</div><div class="fake-danmu-item">宋浩</div><div class="fake-danmu-item">就是从外往里导</div><div class="fake-danmu-item">卧槽</div><div class="fake-danmu-item">google</div><div class="fake-danmu-item">老师好！！</div><div class="fake-danmu-item">所以求导是线性运算！</div><div class="fake-danmu-item">淦，这段话太真实了……</div><div class="fake-danmu-item">学数学也学英语~</div><div class="fake-danmu-item">xdm！！！加油</div><div class="fake-danmu-item">看这个东西的标题啊，这本质，不是教程</div><div class="fake-danmu-item">df 看做矩形面积， dx就是底边</div><div class="fake-danmu-item">导数的本质是变化率</div><div class="fake-danmu-item">老师好</div><div class="fake-danmu-item">初等基本你够了</div><div class="fake-danmu-item">老师好</div><div class="fake-danmu-item">高中课本里面有不很正常？？？</div></div><div class="preview-bg"></div><div class="preview-wrapper"><div class="preview-loading"></div><div class="preview-progress"><div class="preview-progress-bar"></div></div></div></a><a href="//www.bilibili.com/video/BV1Sx411m7Zz" target="_blank" title="【官方双语】微积分的本质 - 04 - 直观理解链式法则和乘积法则" class="title">【官方双语】微积分的本质 - 04 - 直观理解链式法则和乘积法则</a><div class="meta"><span class="play"><i class="icon"></i>10.7万
+                    </span><span class="time"><i class="icon"></i>2017-5-9
+                    </span></div></li><li data-aid="BV1zx411m7Le" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1zx411m7Le" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/e2174652d38f3babb3f564d3071df78ec81880db.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 03 - 用几何来求导"><span class="length">18:43</span><span class="i-watchlater"></span><!----><div class="fake-danmu-mask" style="opacity: 1; display: none;"></div></a><a href="//www.bilibili.com/video/BV1zx411m7Le" target="_blank" title="【官方双语】微积分的本质 - 03 - 用几何来求导" class="title">【官方双语】微积分的本质 - 03 - 用几何来求导</a><div class="meta"><span class="play"><i class="icon"></i>13.2万
+                    </span><span class="time"><i class="icon"></i>2017-5-7
+                    </span></div></li><li data-aid="BV1Lx411m7Vj" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Lx411m7Vj" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/eaad70bd24e72046cdcde7d6d69b4d8525a01ca5.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 02 - 导数的悖论"><span class="length">18:38</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1Lx411m7Vj" target="_blank" title="【官方双语】微积分的本质 - 02 - 导数的悖论" class="title">【官方双语】微积分的本质 - 02 - 导数的悖论</a><div class="meta"><span class="play"><i class="icon"></i>17.3万
+                    </span><span class="time"><i class="icon"></i>2017-5-6
+                    </span></div></li><li data-aid="BV1cx411m78R" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1cx411m78R" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/11aab6ed64acf0bf9ca9d48ec97796a724490427.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】微积分的本质 - 01 -"><span class="length">17:05</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1cx411m78R" target="_blank" title="【官方双语】微积分的本质 - 01 -" class="title">【官方双语】微积分的本质 - 01 -</a><div class="meta"><span class="play"><i class="icon"></i>45.1万
+                    </span><span class="time"><i class="icon"></i>2017-5-4
+                    </span></div></li><li data-aid="BV15x411D7F8" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV15x411D7F8" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/61376064f3c4f4ae19c8a11d73401c91780f3ba6.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】用球面映射巧解分赃难题：拓扑学的另一妙用"><span class="length">21:55</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV15x411D7F8" target="_blank" title="【官方双语】用球面映射巧解分赃难题：拓扑学的另一妙用" class="title">【官方双语】用球面映射巧解分赃难题：拓扑学的另一妙用</a><div class="meta"><span class="play"><i class="icon"></i>6.7万
+                    </span><span class="time"><i class="icon"></i>2017-4-16
+                    </span></div></li><li data-aid="BV1mx411D7Vx" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1mx411D7Vx" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/d7c029733e4adba0dcfa1d1680c71dcbb0193ece.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】数学上的文身"><span class="length">08:15</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1mx411D7Vx" target="_blank" title="【官方双语】数学上的文身" class="title">【官方双语】数学上的文身</a><div class="meta"><span class="play"><i class="icon"></i>3.8万
+                    </span><span class="time"><i class="icon"></i>2017-3-28
+                    </span></div></li><li data-aid="BV1wx411C7WT" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1wx411C7WT" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/0ccc8775f055feeca63a69c60565b8cdd6298d55.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】分形并不一定自相似"><span class="length">21:36</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1wx411C7WT" target="_blank" title="【官方双语】分形并不一定自相似" class="title">【官方双语】分形并不一定自相似</a><div class="meta"><span class="play"><i class="icon"></i>6.1万
+                    </span><span class="time"><i class="icon"></i>2017-3-6
+                    </span></div></li><li data-aid="BV1tx411y7VG" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1tx411y7VG" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/a8d9c836b57ded5f3a3cfb30185808fab299e814.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】黎曼ζ函数与解析延拓的可视化"><span class="length">22:11</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1tx411y7VG" target="_blank" title="【官方双语】黎曼ζ函数与解析延拓的可视化" class="title">【官方双语】黎曼ζ函数与解析延拓的可视化</a><div class="meta"><span class="play"><i class="icon"></i>20.3万
+                    </span><span class="time"><i class="icon"></i>2017-2-20
+                    </span></div></li><li data-aid="BV1es411e7Gv" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1es411e7Gv" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/faccff96442ec771bb729f9e0c6623042ab2231d.jpg@380w_240h_100Q_1c.webp" alt="隐藏在汉诺塔中的分形曲线"><span class="length">13:40</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1es411e7Gv" target="_blank" title="隐藏在汉诺塔中的分形曲线" class="title">隐藏在汉诺塔中的分形曲线</a><div class="meta"><span class="play"><i class="icon"></i>3.4万
+                    </span><span class="time"><i class="icon"></i>2016-12-15
+                    </span></div></li><li data-aid="BV1rs411Y76X" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1rs411Y76X" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/78b0fac0272a4d06d7e7c6c3112ae4f926482a4e.jpg@380w_240h_100Q_1c.webp" alt="用二进制来解汉诺塔问题"><span class="length">13:58</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1rs411Y76X" target="_blank" title="用二进制来解汉诺塔问题" class="title">用二进制来解汉诺塔问题</a><div class="meta"><span class="play"><i class="icon"></i>7.3万
+                    </span><span class="time"><i class="icon"></i>2016-12-5
+                    </span></div></li><li data-aid="BV1rs411x7sb" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1rs411x7sb" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/4866638723f351468141546f4cb2392b4814c433.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】用莫比乌斯带巧解内接矩形问题：拓扑学的用处"><span class="length">18:15</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1rs411x7sb" target="_blank" title="【官方双语】用莫比乌斯带巧解内接矩形问题：拓扑学的用处" class="title">【官方双语】用莫比乌斯带巧解内接矩形问题：拓扑学的用处</a><div class="meta"><span class="play"><i class="icon"></i>15.6万
+                    </span><span class="time"><i class="icon"></i>2016-11-11
+                    </span></div></li><li data-aid="BV1ys411472E" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ys411472E" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/c81a8eb032f3eaa1afd604272a410ac6896f281e.jpg@380w_240h_100Q_1c.webp" alt="【官方双语/合集】线性代数的本质 - 系列合集"><span class="length">172:43</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1ys411472E" target="_blank" title="【官方双语/合集】线性代数的本质 - 系列合集" class="title">【官方双语/合集】线性代数的本质 - 系列合集</a><div class="meta"><span class="play"><i class="icon"></i>161.4万
+                    </span><span class="time"><i class="icon"></i>2016-10-18
+                    </span></div></li><li data-aid="BV1ps41147Z5" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ps41147Z5" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/ee96d48c2acd9c7a3699d95ea8e9d0fc7d623214.jpg@380w_240h_100Q_1c.webp" alt="【官方双语】线性代数的本质 - 11 - 抽象向量空间"><span class="length">16:46</span><span class="i-watchlater"></span><!----><div class="fake-danmu-mask" style="display: none; opacity: 1;"></div><div class="fake-danmu" style="display: none;"><div class="fake-danmu-item">完结撒花</div><div class="fake-danmu-item">完结撒花</div><div class="fake-danmu-item">积分的线性性质</div><div class="fake-danmu-item">注意这里的pai</div><div class="fake-danmu-item">叫代代的你别走</div><div class="fake-danmu-item">爱了爱了</div><div class="fake-danmu-item">弹幕能别瞎逼逼了么</div><div class="fake-danmu-item">离散连续化？</div><div class="fake-danmu-item">美丽！！</div><div class="fake-danmu-item">噢噢噢噢</div><div class="fake-danmu-item">好有趣啊</div><div class="fake-danmu-item">对对真的</div><div class="fake-danmu-item">对对对！！前几章开始有这种感觉了</div><div class="fake-danmu-item">我用手也比划不清楚</div><div class="fake-danmu-item">哈哈哈笑死了</div><div class="fake-danmu-item">终于来到完结篇了！！太棒了这个</div><div class="fake-danmu-item">有始有终</div><div class="fake-danmu-item">谈到证明就不好受了，停留在直观这一层面才是最有意思的</div><div class="fake-danmu-item">4D这是啥</div><div class="fake-danmu-item">nb</div></div></a><a href="//www.bilibili.com/video/BV1ps41147Z5" target="_blank" title="【官方双语】线性代数的本质 - 11 - 抽象向量空间" class="title">【官方双语】线性代数的本质 - 11 - 抽象向量空间</a><div class="meta"><span class="play"><i class="icon"></i>7.2万
+                    </span><span class="time"><i class="icon"></i>2016-10-13
+                    </span></div></li><li data-aid="BV1Ls411b7oL" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Ls411b7oL" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/58eed60e2d979311a7221d57c05bc19a035d8741.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 10 - 特征向量与特征值"><span class="length">17:15</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1Ls411b7oL" target="_blank" title="【熟肉】线性代数的本质 - 10 - 特征向量与特征值" class="title">【熟肉】线性代数的本质 - 10 - 特征向量与特征值</a><div class="meta"><span class="play"><i class="icon"></i>14万
+                    </span><span class="time"><i class="icon"></i>2016-10-5
+                    </span></div></li><li data-aid="BV1Ls411b7r2" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Ls411b7r2" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/2e3d9fcbcb7b0385f3fbc4acb9588e61e5958399.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 09 - 基变换"><span class="length">12:51</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1Ls411b7r2" target="_blank" title="【熟肉】线性代数的本质 - 09 - 基变换" class="title">【熟肉】线性代数的本质 - 09 - 基变换</a><div class="meta"><span class="play"><i class="icon"></i>9.1万
+                    </span><span class="time"><i class="icon"></i>2016-10-2
+                    </span></div></li><li data-aid="BV18s411t7mD" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV18s411t7mD" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/466f18297d53cdc24783e53d921e63ae37bb1a41.jpg@380w_240h_100Q_1c.webp" alt="最速降线问题：最快下滑路径为什么是旋轮线？（中英字幕）"><span class="length">19:57</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV18s411t7mD" target="_blank" title="最速降线问题：最快下滑路径为什么是旋轮线？（中英字幕）" class="title">最速降线问题：最快下滑路径为什么是旋轮线？（中英字幕）</a><div class="meta"><span class="play"><i class="icon"></i>26.2万
+                    </span><span class="time"><i class="icon"></i>2016-9-23
+                    </span></div></li><li data-aid="BV1vs411t7w9" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1vs411t7w9" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/c7f333cbe604f091a53e70aee98540893fdbf760.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 08第二部分 - 以线性变换的眼光看叉积"><span class="length">13:10</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1vs411t7w9" target="_blank" title="【熟肉】线性代数的本质 - 08第二部分 - 以线性变换的眼光看叉积" class="title">【熟肉】线性代数的本质 - 08第二部分 - 以线性变换的眼光看叉积</a><div class="meta"><span class="play"><i class="icon"></i>6.7万
+                    </span><span class="time"><i class="icon"></i>2016-9-22
+                    </span></div></li><li data-aid="BV1js411t7qS" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1js411t7qS" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/c6f935bcd769bd1e3252399c7f42d5a541f0c265.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 08第一部分 - 叉积的标准介绍"><span class="length">08:53</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1js411t7qS" target="_blank" title="【熟肉】线性代数的本质 - 08第一部分 - 叉积的标准介绍" class="title">【熟肉】线性代数的本质 - 08第一部分 - 叉积的标准介绍</a><div class="meta"><span class="play"><i class="icon"></i>7.6万
+                    </span><span class="time"><i class="icon"></i>2016-9-19
+                    </span></div></li><li data-aid="BV13s411t7fe" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV13s411t7fe" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/ccd48926a1a19baecc93feafd39c81026590c209.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 07 - 点积与对偶性"><span class="length">14:11</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV13s411t7fe" target="_blank" title="【熟肉】线性代数的本质 - 07 - 点积与对偶性" class="title">【熟肉】线性代数的本质 - 07 - 点积与对偶性</a><div class="meta"><span class="play"><i class="icon"></i>12.2万
+                    </span><span class="time"><i class="icon"></i>2016-9-16
+                    </span></div></li><li data-aid="BV1ns411r7NX" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ns411r7NX" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/82ab1d6e177087fe5f7983d2fee1d06a527061fc.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 06补充说明 - 非方阵"><span class="length">04:26</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1ns411r7NX" target="_blank" title="【熟肉】线性代数的本质 - 06补充说明 - 非方阵" class="title">【熟肉】线性代数的本质 - 06补充说明 - 非方阵</a><div class="meta"><span class="play"><i class="icon"></i>6.7万
+                    </span><span class="time"><i class="icon"></i>2016-9-11
+                    </span></div></li><li data-aid="BV1ns411r7dE" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ns411r7dE" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/369c8b4af564cb93e964cd61aef4405e0f509835.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 06 - 逆矩阵、列空间与零空间"><span class="length">12:09</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1ns411r7dE" target="_blank" title="【熟肉】线性代数的本质 - 06 - 逆矩阵、列空间与零空间" class="title">【熟肉】线性代数的本质 - 06 - 逆矩阵、列空间与零空间</a><div class="meta"><span class="play"><i class="icon"></i>14.9万
+                    </span><span class="time"><i class="icon"></i>2016-9-11
+                    </span></div></li><li data-aid="BV1Qs41167bP" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Qs41167bP" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/768b4cd879e6fcbe7575c219ee989d03e4702910.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 05 - 行列式"><span class="length">10:03</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1Qs41167bP" target="_blank" title="【熟肉】线性代数的本质 - 05 - 行列式" class="title">【熟肉】线性代数的本质 - 05 - 行列式</a><div class="meta"><span class="play"><i class="icon"></i>16.7万
+                    </span><span class="time"><i class="icon"></i>2016-9-6
+                    </span></div></li><li data-aid="BV1Ss41167dG" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Ss41167dG" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/ffac5c1e315020fd9818415586daf8f6377acb96.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 04补充 - 三维空间中的线性变换"><span class="length">04:45</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1Ss41167dG" target="_blank" title="【熟肉】线性代数的本质 - 04补充 - 三维空间中的线性变换" class="title">【熟肉】线性代数的本质 - 04补充 - 三维空间中的线性变换</a><div class="meta"><span class="play"><i class="icon"></i>7.3万
+                    </span><span class="time"><i class="icon"></i>2016-9-3
+                    </span></div></li><li data-aid="BV1ms41167u9" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ms41167u9" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/23a684bbc031154390aad458fab9463aecfd7474.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 04 - 矩阵乘法与线性变换复合"><span class="length">10:03</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1ms41167u9" target="_blank" title="【熟肉】线性代数的本质 - 04 - 矩阵乘法与线性变换复合" class="title">【熟肉】线性代数的本质 - 04 - 矩阵乘法与线性变换复合</a><div class="meta"><span class="play"><i class="icon"></i>18.5万
+                    </span><span class="time"><i class="icon"></i>2016-9-2
+                    </span></div></li><li data-aid="BV1ns41167b9" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1ns41167b9" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/0219069564b932809621ec68000216edb129024b.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 03 - 矩阵与线性变换"><span class="length">10:58</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1ns41167b9" target="_blank" title="【熟肉】线性代数的本质 - 03 - 矩阵与线性变换" class="title">【熟肉】线性代数的本质 - 03 - 矩阵与线性变换</a><div class="meta"><span class="play"><i class="icon"></i>25.9万
+                    </span><span class="time"><i class="icon"></i>2016-8-27
+                    </span></div></li></ul><ul class="be-pager"><li title="上一页" class="be-pager-prev"><a>上一页</a></li><li title="第一页" class="be-pager-item"><a>1</a></li><!----><!----><li title="2" class="be-pager-item"><a>2</a></li><li title="3" class="be-pager-item be-pager-item-active"><a>3</a></li><!----><!----><!----><li title="最后一页:4" class="be-pager-item"><a>4</a></li><li title="下一页" class="be-pager-next"><a>下一页</a></li><span class="be-pager-total">共 4 页，</span><span class="be-pager-options-elevator">
+    跳至
+    <input type="text" class="space_input"> 页
+  </span></ul></div></div></div></div>
+
+<div class="main-content"><div class="row page-head clearfix"><div class="breadcrumb"><p class="item cur video-title">TA的视频
+              <a href="//www.bilibili.com/medialist/play/88461692?from=space" target="_blank" class="play-all-btn"><img src="//s1.hdslb.com/bfs/static/jinkela/space/assets/play-all.png" alt="">播放全部</a></p></div><div class="v-filter-line clearfix"><div class="be-tab"><ul class="be-tab-inner clearfix"><li class="be-tab-item is-active"><input type="radio" name="be-tab-1" class="be-tab-input" value="pubdate"><span>最新发布</span></li><li class="be-tab-item"><input type="radio" name="be-tab-1" class="be-tab-input" value="click"><span>最多播放</span></li><li class="be-tab-item"><input type="radio" name="be-tab-1" class="be-tab-input" value="stow"><span>最多收藏</span></li></ul><div class="be-tab-cursor" style="transform: translateX(0px); width: 56px;"></div></div><div class="item style"><span data-style="cube" class="icon cube active"></span><span data-style="list" class="icon list"></span></div></div></div><p class="v-search-result" style="display: none;">共找到关于“
+          <span class="v-search-kw"></span>”的
+          <em class="v-search-count">98</em> 个视频</p><div id="submit-video-type-filter"><a class="active">
+            全部<span class="count">98</span></a><a class="">
+            知识<span class="count">97</span></a><a class="">
+            生活<span class="count">1</span></a></div><div id="submit-video" class="section video"><div id="video-list-style" class="cube"><div id="submit-video-list" class="content"><ul class="list-list" style="display: none;"><li data-aid="BV12s411k7S5" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV12s411k7S5" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/813d41f3116ab9af660caa9ddccb84d9e20deb21.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 02 - 线性组合、张成的空间与基"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV12s411k7S5" target="_blank" title="【熟肉】线性代数的本质 - 02 - 线性组合、张成的空间与基" class="title">【熟肉】线性代数的本质 - 02 - 线性组合、张成的空间与基</a></div><div title="视频源地址：https://www.youtube.com/watch?v=k7RM-ot2NWY
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+
+02 - 线性组合、张成的空间、线性相关、线性无关与基等线性代数基础概念" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=k7RM-ot2NWY
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+
+02 - 线性组合、张成的空间、线性相关、线性无关与基等线性代数基础概念
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>22.5万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>818
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-8-26
+                      </span></div></div></li><li data-aid="BV1Ys411k7yQ" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Ys411k7yQ" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/6c102ffcbae3b9fe51a7724d15a6d22e98d8b763.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 01 - 向量究竟是什么？"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Ys411k7yQ" target="_blank" title="【熟肉】线性代数的本质 - 01 - 向量究竟是什么？" class="title">【熟肉】线性代数的本质 - 01 - 向量究竟是什么？</a></div><div title="视频源地址：https://www.youtube.com/watch?v=fNk_zzaMoSs
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+
+01 - 这个问题看似简单，但实际并非如此。" class="desc">
+                      视频源地址：https://www.youtube.com/watch?v=fNk_zzaMoSs
+线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown
+
+听译、时间轴、压制：@Solara570
+
+01 - 这个问题看似简单，但实际并非如此。
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>48.7万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>1348
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-8-24
+                      </span></div></div></li><li data-aid="BV1rs411k7ru" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1rs411k7ru" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/3f1e6dd57d9b1cc7cba832d5336e9636db0802ff.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 00 - “线性代数的本质”系列预览"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1rs411k7ru" target="_blank" title="【熟肉】线性代数的本质 - 00 - “线性代数的本质”系列预览" class="title">【熟肉】线性代数的本质 - 00 - “线性代数的本质”系列预览</a></div><div title="线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown ( https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw )
+视频源地址：https://www.youtube.com/watch?v=kjBOesZCoqc
+
+听译、时间轴、压制：@Solara570
+
+00 - “线性代数的本质”系列的简介" class="desc">
+                      线性代数的本质（Essense of Linear Algebra）系列
+作者：@3Blue1Brown ( https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw )
+视频源地址：https://www.youtube.com/watch?v=kjBOesZCoqc
+
+听译、时间轴、压制：@Solara570
+
+00 - “线性代数的本质”系列的简介
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>22.2万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>474
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-8-24
+                      </span></div></div></li><li data-aid="BV1Gs411z7EZ" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Gs411z7EZ" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/a56e91cbd78f32807a3c0471de6c29f21c9b092e.jpg@380w_240h_100Q_1c.webp" alt="怎样用力学方法证明光的折射定律"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Gs411z7EZ" target="_blank" title="怎样用力学方法证明光的折射定律" class="title">怎样用力学方法证明光的折射定律</a></div><div title="【3Blue1Brown@Youtube】 斯涅尔定律描述光线在两种介质交界处如何发生弯折，这个定律的证明通常要用到微积分。3Blue1Brown介绍了宾州大学数学家Mark Levi给出的一种巧妙证明，不需要微积分，只要利用力的平衡，一下就能证出来。这个小短片是3Blue1Brown最新视频“最速降线问题”的附录，正片过些天翻译。 翻译：昨梦电羊
+" class="desc">
+                      【3Blue1Brown@Youtube】 斯涅尔定律描述光线在两种介质交界处如何发生弯折，这个定律的证明通常要用到微积分。3Blue1Brown介绍了宾州大学数学家Mark Levi给出的一种巧妙证明，不需要微积分，只要利用力的平衡，一下就能证出来。这个小短片是3Blue1Brown最新视频“最速降线问题”的附录，正片过些天翻译。 翻译：昨梦电羊
+
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>11.3万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>658
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-4-5
+                      </span></div></div></li><li data-aid="BV1os411B7Hw" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1os411B7Hw" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/0b1d4e3d511bb2e646f2d20da764887d848f0e95.jpg@380w_240h_100Q_1c.webp" alt="希尔伯特曲线：无限数学怎样应用于有限世界（中英字幕）"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1os411B7Hw" target="_blank" title="希尔伯特曲线：无限数学怎样应用于有限世界（中英字幕）" class="title">希尔伯特曲线：无限数学怎样应用于有限世界（中英字幕）</a></div><div title="【3Blue1Brown@Youtube】 涉及无限概念的许多数学成果看起来离我们的日常世界那么遥远，可是如果你愿意花点时间深入理解它们背后的细节，完全有可能从中找到现实的应用。3Blue1Brown的这个视频从希尔伯特曲线的一个奇妙应用谈起，讲到空间填充曲线的起源，最后探讨了无限的数学结论怎样对有限的世界发挥作用。看完别忘了看看3Blue1Brown的其它精彩数学科普：音乐与测度论（av3586477）、如何发明新数学（av3509556） 翻译：昨梦电羊
+" class="desc">
+                      【3Blue1Brown@Youtube】 涉及无限概念的许多数学成果看起来离我们的日常世界那么遥远，可是如果你愿意花点时间深入理解它们背后的细节，完全有可能从中找到现实的应用。3Blue1Brown的这个视频从希尔伯特曲线的一个奇妙应用谈起，讲到空间填充曲线的起源，最后探讨了无限的数学结论怎样对有限的世界发挥作用。看完别忘了看看3Blue1Brown的其它精彩数学科普：音乐与测度论（av3586477）、如何发明新数学（av3509556） 翻译：昨梦电羊
+
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>32.7万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>3299
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-3-27
+                      </span></div></div></li><li data-aid="BV1hs411R7fZ" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1hs411R7fZ" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/e5c27cc7cfe7f53d759435bc1bf88af70495b6f9.jpg@380w_240h_100Q_1c.webp" alt="【分形】几种空间填充曲线"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1hs411R7fZ" target="_blank" title="【分形】几种空间填充曲线" class="title">【分形】几种空间填充曲线</a></div><div title="【3Blue1Brown@Youtube】 用一条曲线填满一个平面，一个点也不漏掉，这样的曲线称为空间填充曲线。这里展示几种著名的空间填充曲线。这个小视频是3Blue1Brown最新视频“希尔伯特曲线，兼谈无限的数学结论怎样对有限的世界有用处”的补充，正片过些天翻译，敬请期待。 翻译：昨梦电羊
+" class="desc">
+                      【3Blue1Brown@Youtube】 用一条曲线填满一个平面，一个点也不漏掉，这样的曲线称为空间填充曲线。这里展示几种著名的空间填充曲线。这个小视频是3Blue1Brown最新视频“希尔伯特曲线，兼谈无限的数学结论怎样对有限的世界有用处”的补充，正片过些天翻译，敬请期待。 翻译：昨梦电羊
+
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>10.4万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>392
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-1-17
+                      </span></div></div></li><li data-aid="BV1is411R7ZE" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1is411R7ZE" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/c5690f1a779f0c1e854632f336bdc24c36fd4d69.jpg@380w_240h_100Q_1c.webp" alt="音乐与测度论有什么关系？（中英字幕）"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1is411R7ZE" target="_blank" title="音乐与测度论有什么关系？（中英字幕）" class="title">音乐与测度论有什么关系？（中英字幕）</a></div><div title="【3Blue1Brown@Youtube】 两个音符听起来是否悦耳，背后有怎样的数学原理？一个乐感超强的音乐奇才会不会觉得所有音符都是协和的？这些音乐问题跟数学中的测度论又有什么关系？3Blue1Brown用最通俗易懂的语言告诉你。 翻译：昨梦电羊
+" class="desc">
+                      【3Blue1Brown@Youtube】 两个音符听起来是否悦耳，背后有怎样的数学原理？一个乐感超强的音乐奇才会不会觉得所有音符都是协和的？这些音乐问题跟数学中的测度论又有什么关系？3Blue1Brown用最通俗易懂的语言告诉你。 翻译：昨梦电羊
+
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>7.7万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>579
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-1-15
+                      </span></div></div></li><li data-aid="BV1Gs411R7Yo" class="list-item clearfix fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Gs411R7Yo" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/d26ccd0b0fea6785af0c593b839007d1170bcd1c.jpg@380w_240h_100Q_1c.webp" alt="发明新数学是怎样一种体验？（中英字幕）"><span class="i-watchlater"></span><!----></a><div class="c"><div class="title-row"><a href="//www.bilibili.com/video/BV1Gs411R7Yo" target="_blank" title="发明新数学是怎样一种体验？（中英字幕）" class="title">发明新数学是怎样一种体验？（中英字幕）</a></div><div title="【3Blue1Brown@Youtube】 2的n次幂加起来一直加到无穷等于负1？老师不是说过，等比数列求和公式不能这样乱用吗？可是数学家不会那么死板，他们会重新定义旧概念，让谬论变成有用的新数学。来一起体验下发明新数学是什么感觉吧！这是我看过的数学科普视频中最棒的一个，来自Youtube的3Blue1Brown频道。一般的视频只想用反直觉的数学结论或证明过程震惊外行人。但这个视频要教给你普遍的创新思考方法，揭示数学发展的普遍模式，还鼓励你自己探索。从头至尾循循善诱，通俗易懂，一定不要错过。  " class="desc">
+                      【3Blue1Brown@Youtube】 2的n次幂加起来一直加到无穷等于负1？老师不是说过，等比数列求和公式不能这样乱用吗？可是数学家不会那么死板，他们会重新定义旧概念，让谬论变成有用的新数学。来一起体验下发明新数学是什么感觉吧！这是我看过的数学科普视频中最棒的一个，来自Youtube的3Blue1Brown频道。一般的视频只想用反直觉的数学结论或证明过程震惊外行人。但这个视频要教给你普遍的创新思考方法，揭示数学发展的普遍模式，还鼓励你自己探索。从头至尾循循善诱，通俗易懂，一定不要错过。
+                    </div><div class="meta clearfix"><span title="播放数" class="play"><em class="icon"></em>21.1万
+                      </span><span title="弹幕数" class="comments"><em class="icon"></em>2046
+                      </span><span title="创建时间" class="time"><em class="icon"></em>2016-1-3
+                      </span></div></div></li></ul><ul class="clearfix cube-list"><li data-aid="BV12s411k7S5" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV12s411k7S5" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/813d41f3116ab9af660caa9ddccb84d9e20deb21.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 02 - 线性组合、张成的空间与基"><span class="length">09:59</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV12s411k7S5" target="_blank" title="【熟肉】线性代数的本质 - 02 - 线性组合、张成的空间与基" class="title">【熟肉】线性代数的本质 - 02 - 线性组合、张成的空间与基</a><div class="meta"><span class="play"><i class="icon"></i>22.5万
+                    </span><span class="time"><i class="icon"></i>2016-8-26
+                    </span></div></li><li data-aid="BV1Ys411k7yQ" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Ys411k7yQ" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/6c102ffcbae3b9fe51a7724d15a6d22e98d8b763.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 01 - 向量究竟是什么？"><span class="length">09:52</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1Ys411k7yQ" target="_blank" title="【熟肉】线性代数的本质 - 01 - 向量究竟是什么？" class="title">【熟肉】线性代数的本质 - 01 - 向量究竟是什么？</a><div class="meta"><span class="play"><i class="icon"></i>48.7万
+                    </span><span class="time"><i class="icon"></i>2016-8-24
+                    </span></div></li><li data-aid="BV1rs411k7ru" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1rs411k7ru" target="_blank" class="cover"><img src="//i2.hdslb.com/bfs/archive/3f1e6dd57d9b1cc7cba832d5336e9636db0802ff.jpg@380w_240h_100Q_1c.webp" alt="【熟肉】线性代数的本质 - 00 - “线性代数的本质”系列预览"><span class="length">05:09</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1rs411k7ru" target="_blank" title="【熟肉】线性代数的本质 - 00 - “线性代数的本质”系列预览" class="title">【熟肉】线性代数的本质 - 00 - “线性代数的本质”系列预览</a><div class="meta"><span class="play"><i class="icon"></i>22.2万
+                    </span><span class="time"><i class="icon"></i>2016-8-24
+                    </span></div></li><li data-aid="BV1Gs411z7EZ" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Gs411z7EZ" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/a56e91cbd78f32807a3c0471de6c29f21c9b092e.jpg@380w_240h_100Q_1c.webp" alt="怎样用力学方法证明光的折射定律"><span class="length">03:56</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1Gs411z7EZ" target="_blank" title="怎样用力学方法证明光的折射定律" class="title">怎样用力学方法证明光的折射定律</a><div class="meta"><span class="play"><i class="icon"></i>11.3万
+                    </span><span class="time"><i class="icon"></i>2016-4-5
+                    </span></div></li><li data-aid="BV1os411B7Hw" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1os411B7Hw" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/0b1d4e3d511bb2e646f2d20da764887d848f0e95.jpg@380w_240h_100Q_1c.webp" alt="希尔伯特曲线：无限数学怎样应用于有限世界（中英字幕）"><span class="length">19:41</span><span class="i-watchlater"></span><!----></a><a href="//www.bilibili.com/video/BV1os411B7Hw" target="_blank" title="希尔伯特曲线：无限数学怎样应用于有限世界（中英字幕）" class="title">希尔伯特曲线：无限数学怎样应用于有限世界（中英字幕）</a><div class="meta"><span class="play"><i class="icon"></i>32.7万
+                    </span><span class="time"><i class="icon"></i>2016-3-27
+                    </span></div></li><li data-aid="BV1hs411R7fZ" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1hs411R7fZ" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/e5c27cc7cfe7f53d759435bc1bf88af70495b6f9.jpg@380w_240h_100Q_1c.webp" alt="【分形】几种空间填充曲线"><span class="length">02:33</span><span class="i-watchlater"></span><!----><div class="fake-danmu-mask" style="opacity: 1; display: none;"></div><div class="fake-danmu" style="display: none;"><div class="fake-danmu-item">灵敏→测度</div><div class="fake-danmu-item">拍是两个不同频率的波相互作用</div><div class="fake-danmu-item">卧槽，这是哪个天才发现的！</div><div class="fake-danmu-item">mQ=0</div><div class="fake-danmu-item">还行啊</div><div class="fake-danmu-item">切分？</div><div class="fake-danmu-item">哈哈</div><div class="fake-danmu-item">十二平均律</div><div class="fake-danmu-item">A3</div><div class="fake-danmu-item">實變函數學十遍</div><div class="fake-danmu-item">是lingling没错了</div><div class="fake-danmu-item">分母太大了</div><div class="fake-danmu-item">？？？物理数和有理数都不可数怎么比交多少？只能说集合的势吧</div><div class="fake-danmu-item">所以说高级智能爱听的曲子低级智能可能觉得难听？</div><div class="fake-danmu-item">突然枯燥</div><div class="fake-danmu-item">突然枯燥</div><div class="fake-danmu-item">朱一旦差点出场</div><div class="fake-danmu-item">钢琴就是用十二平均律调音的啊……</div><div class="fake-danmu-item">拍子这个翻译……（频率吧还是说</div><div class="fake-danmu-item">现在还有不用12平均律调音的吗…</div></div><div class="fake-danmu"><div class="fake-danmu-item">求bgm</div><div class="fake-danmu-item">徐伟老师牛逼</div><div class="fake-danmu-item">一笔画？</div><div class="fake-danmu-item">Aleph-0</div><div class="fake-danmu-item">流 （ l e i ） 蛇</div><div class="fake-danmu-item">分形几何</div><div class="fake-danmu-item">wow</div><div class="fake-danmu-item">求BGM</div><div class="fake-danmu-item">呕吼</div><div class="fake-danmu-item">我好方</div><div class="fake-danmu-item">EVAEVAEVAEVA</div><div class="fake-danmu-item">十字架！！！！！！！！！！！！</div><div class="fake-danmu-item">用什么模拟的？</div><div class="fake-danmu-item">用什么模拟的？</div><div class="fake-danmu-item">ohhhhhh</div><div class="fake-danmu-item">卧槽？外面是2:33分，里面是2:34分</div><div class="fake-danmu-item">4年级全懂了</div><div class="fake-danmu-item">4年级全懂了</div><div class="fake-danmu-item">我这简单。我用点向上开始延伸哈哈哈</div><div class="fake-danmu-item">雪花就是自然界得分形数学</div></div><div class="preview-bg"></div><div class="preview-wrapper"><div class="preview-loading"></div><div class="preview-progress"><div class="preview-progress-bar"></div></div></div></a><a href="//www.bilibili.com/video/BV1hs411R7fZ" target="_blank" title="【分形】几种空间填充曲线" class="title">【分形】几种空间填充曲线</a><div class="meta"><span class="play"><i class="icon"></i>10.4万
+                    </span><span class="time"><i class="icon"></i>2016-1-17
+                    </span></div></li><li data-aid="BV1is411R7ZE" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1is411R7ZE" target="_blank" class="cover"><img src="//i1.hdslb.com/bfs/archive/c5690f1a779f0c1e854632f336bdc24c36fd4d69.jpg@380w_240h_100Q_1c.webp" alt="音乐与测度论有什么关系？（中英字幕）"><span class="length">13:13</span><span class="i-watchlater"></span><!----><div class="fake-danmu-mask" style="opacity: 1; display: none;"></div><div class="preview-bg"></div><div class="preview-wrapper"><div class="preview-loading"></div><div class="preview-progress"><div class="preview-progress-bar"></div></div></div></a><a href="//www.bilibili.com/video/BV1is411R7ZE" target="_blank" title="音乐与测度论有什么关系？（中英字幕）" class="title">音乐与测度论有什么关系？（中英字幕）</a><div class="meta"><span class="play"><i class="icon"></i>7.7万
+                    </span><span class="time"><i class="icon"></i>2016-1-15
+                    </span></div></li><li data-aid="BV1Gs411R7Yo" class="small-item fakeDanmu-item"><a href="//www.bilibili.com/video/BV1Gs411R7Yo" target="_blank" class="cover"><img src="//i0.hdslb.com/bfs/archive/d26ccd0b0fea6785af0c593b839007d1170bcd1c.jpg@380w_240h_100Q_1c.webp" alt="发明新数学是怎样一种体验？（中英字幕）"><span class="length">15:07</span><span class="i-watchlater"></span><!----><div class="fake-danmu-mask" style="opacity: 1; display: none;"></div><div class="fake-danmu"><div class="fake-danmu-item">数学每一个分支实用性都很强、</div><div class="fake-danmu-item">黎曼和</div><div class="fake-danmu-item">讲到极限了。微积分的理论基础，其实并不是那么牢固，所以会有新发现。</div><div class="fake-danmu-item">无限和，听着就高级</div><div class="fake-danmu-item">某 数 学 论 坛（指民科吧）</div><div class="fake-danmu-item">epsilon-delta语言</div><div class="fake-danmu-item">首发</div><div class="fake-danmu-item">民  科  吧</div><div class="fake-danmu-item">绿 色 婴 儿</div><div class="fake-danmu-item">极限</div><div class="fake-danmu-item">无限接近但是不等于</div><div class="fake-danmu-item">谁还没有一颗爱数学的心呢？</div><div class="fake-danmu-item">禁止套娃</div><div class="fake-danmu-item">！</div><div class="fake-danmu-item">因为溢出了所以等于负一</div><div class="fake-danmu-item">我也背过，背到2^37</div><div class="fake-danmu-item">深层次的说，就是1里面含有这个级数内的任意一项，也就可以抽取出来任一项，也就是泰勒级数</div><div class="fake-danmu-item">数字</div><div class="fake-danmu-item">你好，此时此刻看这个视频的人</div><div class="fake-danmu-item">稠密性，0.9循环和1之间不存在别的数了，所以相等</div></div><div class="preview-bg"></div><div class="preview-wrapper"><div class="preview-loading"></div><div class="preview-progress"><div class="preview-progress-bar"></div></div></div></a><a href="//www.bilibili.com/video/BV1Gs411R7Yo" target="_blank" title="发明新数学是怎样一种体验？（中英字幕）" class="title">发明新数学是怎样一种体验？（中英字幕）</a><div class="meta"><span class="play"><i class="icon"></i>21.1万
+                    </span><span class="time"><i class="icon"></i>2016-1-3
+                    </span></div></li></ul><ul class="be-pager"><li title="上一页" class="be-pager-prev"><a>上一页</a></li><li title="第一页" class="be-pager-item"><a>1</a></li><!----><li title="2" class="be-pager-item"><a>2</a></li><li title="3" class="be-pager-item"><a>3</a></li><!----><!----><!----><!----><li title="最后一页:4" class="be-pager-item be-pager-item-active"><a>4</a></li><li title="下一页" class="be-pager-next be-pager-disabled"><a>下一页</a></li><span class="be-pager-total">共 4 页，</span><span class="be-pager-options-elevator">
+    跳至
+    <input type="text" class="space_input"> 页
+  </span></ul></div></div></div></div>
