@@ -37,7 +37,7 @@ option.add_experimental_option('perfLoggingPrefs',{
 })
 
 def getUrl(url):
-    with webdriver.Chrome(options=option, desired_capabilities=caps, executable_path=r"F:\softwares\chromedriver\chromedriver.exe") as driver:
+    with webdriver.Chrome(options=option, desired_capabilities=caps, executable_path=r"D:\software\chromedriver\chromedriver.exe") as driver:
         driver.set_page_load_timeout(20)
         driver.get(url)
 
@@ -55,7 +55,7 @@ def getUrl(url):
 
                     tt = msg['params']['request']['url']
 
-                    if re.match(r'https://zkcdn.wb699.com/2018/10/08/[^/]+/playlist.m3u8', tt):
+                    if '1000kb' in tt and 'index.m3u8' in tt:
                         true_url = tt
 
                 except Exception as err:
@@ -69,12 +69,42 @@ def getUrl(url):
 # //https://v2.dious.cc/20200909/ZIylMfpv/1000kb/hls/index.m3u8
 
 pages = """
-https://www.hk7k.com/vodplay/92400/1/6.html
-https://www.hk7k.com/vodplay/92400/1/5.html
-https://www.hk7k.com/vodplay/92400/1/4.html
-https://www.hk7k.com/vodplay/92400/1/3.html
-https://www.hk7k.com/vodplay/92400/1/2.html
-https://www.hk7k.com/vodplay/92400/1/1.html
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_1hgyraojqjc.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_1j7l72yty8g.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_12flj204iu4.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_23s59wf6g10.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_1ebayyi5uw4.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_18fb74d42jg.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_1bcpql0f8w8.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_1lzqp1ask64.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_2beok23sz9k.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_bbqxgb0xhg.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_1y1q7pj9e2g.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_swn163vbd4.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_1n750pqze4s.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_u53ruv8wwk.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_bzqv040sac.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_bz3qr9s50w.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_154ts7hgu0g.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_sjehvbtseg.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_1czt5zk7n14.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+# https://jx.618g.com/?url=https://www.iqiyi.com/v_10yg6sh4m28.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_12r43hmhduo.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_1oozhxbsw7o.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_gl64o3s70w.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_20pqayc135c.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_n7z9bxwmv8.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_u6i23bzoxs.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_1v5okhg65k4.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_rivz8vmg5k.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_uzbhjou5nk.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_1oc1t66e4tg.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_2gdlipdh9cc.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_26l0z0lw4w4.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_1llfttieay0.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_2eoguh28byg.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_oln460nta0.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
+https://jx.618g.com/?url=https://www.iqiyi.com/v_1o4sdpzn0tk.html?vfrm=pcw_playpage&amp;vfrmblk=D&amp;vfrmrst=80521_listbox_positive
 """
 
 # for i in range(26, 39):
@@ -84,5 +114,9 @@ for ix, page in enumerate(pages.split('\n')):
     if len(page) == 0:
         continue
 
-    print(str(getUrl(page)) + '  ' + '亚洲怪谈(S1)' + str(ix))
+    if page.startswith('#'):
+        ix = ix + 1
+        continue
+
+    print(str(getUrl(page)) + '  ' + '终级笔记' + str(ix))
 

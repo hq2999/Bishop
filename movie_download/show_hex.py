@@ -1,2 +1,2 @@
-txt = '6a3de81dfc9e9bcb'
+txt = '929d803088ffefbe'
 print(txt.encode().hex())

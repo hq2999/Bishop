@@ -63,20 +63,17 @@ def del_file(file_path):
         if os.path.isfile(path) == True:
             os.remove(path)
 
-
-
-
 def download(url, output_file_path):
 
     del_file(tmp_file_path)
 
-    # base_url = re.sub(r'(https?://.+?/).*', '\\1', url)
-    base_url = re.sub(r'(https?://.+/).*', '\\1', url)
+    base_url = re.sub(r'(https?://.+?/).*', '\\1', url)
+    # base_url = re.sub(r'(https?://.+/).*', '\\1', url)
     file_list = get_file_list(url)
 
     print('total:' + str(len(file_list)))
 
-    with ThreadPoolExecutor(max_workers=100) as tpe:
+    with ThreadPoolExecutor(max_workers=20) as tpe:
         all_task = list()
         for ix, f in enumerate(file_list):
             if f.startswith('http'):
@@ -91,5 +88,6 @@ def download(url, output_file_path):
     del_file(tmp_file_path)
 
 
-download('https://youku.cdn2-okzy.com/20210302/14291_8286124d/1000k/hls/index.m3u8', '38.ts')
+download('https://mhcdn.mhqiyi.com/20210331/zELSBZ18/1000kb/hls/index.m3u8', 'filename.ts')
+
 
